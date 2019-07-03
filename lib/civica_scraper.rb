@@ -5,6 +5,7 @@ require "civica_scraper/version"
 require "civica_scraper/authority/burwood"
 require "civica_scraper/authority/wollondilly"
 require "civica_scraper/authority/woollahra"
+require "civica_scraper/page/search"
 
 require "scraperwiki"
 

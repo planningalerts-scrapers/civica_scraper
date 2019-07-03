@@ -31,11 +31,8 @@ module CivicaScraper
         # Grab the starting page and go into each link to get a more reliable data format.
         agent = Mechanize.new
         page = agent.get(general_search_url)
-        form = page.form_with(name: "daEnquiryForm")
-        form['lodgeRangeType'] = 'on'
-        form['dateFrom'] = date_from.strftime('%d/%m/%Y')
-        form['dateTo']   = date_to.strftime('%d/%m/%Y')
-        page = form.submit()
+
+        page = Page::Search.period(page, date_from, date_to)
 
         (0..page.search('.non_table_headers').size - 1).each do |i|
           doc = agent.get(search_result_url + i.to_s)
