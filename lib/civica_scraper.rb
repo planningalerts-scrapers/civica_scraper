@@ -8,6 +8,7 @@ require "civica_scraper/authority/woollahra"
 require "civica_scraper/page/search"
 
 require "scraperwiki"
+require "mechanize"
 
 # Scrape civica websites
 module CivicaScraper

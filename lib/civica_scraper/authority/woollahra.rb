@@ -1,5 +1,3 @@
-require 'mechanize'
-
 module CivicaScraper
   module Authority
     module Woollahra
