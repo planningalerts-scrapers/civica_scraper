@@ -2,15 +2,13 @@ require 'scraperwiki'
 require 'mechanize'
 require 'date'
 
-class Hash
-  def has_blank?
-    self.values.any?{|v| v.nil? || v.length == 0}
-  end
-end
-
 module CivicaScraper
   module Authority
     module Wollondilly
+      def self.has_blank?(record)
+        record.values.any?{|v| v.nil? || v.length == 0}
+      end
+
       def self.scrape_and_save
         base_url = "https://ecouncil.wollondilly.nsw.gov.au/eServeDAEnq.htm"
         comment_url = "mailto:council@wollondilly.nsw.gov.au"
@@ -43,7 +41,7 @@ module CivicaScraper
           record['date_scraped']      = Date.today.to_s
           record['date_received']     = Date.strptime(results.search('span[contains("Date Lodged")] ~ span')[i].text, '%d/%m/%Y').to_s rescue nil
 
-          unless record.has_blank?
+          unless has_blank?(record)
             puts "Saving record " + record['council_reference'] + ", " + record['address']
         #       puts record
             ScraperWiki.save_sqlite(['council_reference'], record)
