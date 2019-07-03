@@ -1,0 +1,410 @@
+---
+- address: 56 Hargrave Street, PADDINGTON, NSW
+  description: Section 4.55
+  council_reference: 1064/2003
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 03/07/2019
+  on_notice_to: 17/07/2019
+- address: 21 Davies Avenue, VAUCLUSE, NSW
+  description: 'Dwelling House:'
+  council_reference: 14/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 28/06/2019
+  on_notice_to: '09/07/2019'
+- address: 85 New South Head Road, Unit 1002 85 New South Head Road, EDGECLIFF, NSW
+  description: Alts and Adds to Residential Flat Bldg
+  council_reference: 164/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 19/06/2019
+  on_notice_to: 03/07/2019
+- address: 2C Tarrant Avenue, BELLEVUE HILL, NSW
+  description: Dwelling House
+  council_reference: 166/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 26/06/2019
+  on_notice_to: 10/07/2019
+- address: 6 Kings Road, VAUCLUSE, NSW
+  description: Dwelling House
+  council_reference: 190/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 19/06/2019
+  on_notice_to: 03/07/2019
+- address: Lyne Park Access Road, ROSE BAY, NSW
+  description: 'Restaurant/Cafe:'
+  council_reference: 193/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 19/06/2019
+  on_notice_to: 18/07/2019
+- address: 6 Olive Street, PADDINGTON, NSW
+  description: Dwelling House
+  council_reference: 198/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 26/06/2019
+  on_notice_to: 10/07/2019
+- address: 58 Cameron Street, EDGECLIFF, NSW
+  description: Dwelling House
+  council_reference: 199/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 19/06/2019
+  on_notice_to: 03/07/2019
+- address: 42 Queen Street, WOOLLAHRA, NSW
+  description: Mixed Residential/Commercial
+  council_reference: 200/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 19/06/2019
+  on_notice_to: 03/07/2019
+- address: 20 Edgecliff Road, WOOLLAHRA, NSW
+  description: Dwelling House
+  council_reference: 201/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 19/06/2019
+  on_notice_to: 03/07/2019
+- address: 82 Darling Point Road, DARLING POINT, NSW
+  description: Strata Subdivision
+  council_reference: 202/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 19/06/2019
+  on_notice_to: 03/07/2019
+- address: 68 Drumalbyn Road, 68 Drumalbyn Road, BELLEVUE HILL, NSW
+  description: Event
+  council_reference: 203/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 19/06/2019
+  on_notice_to: 03/07/2019
+- address: 4 Mitchell Road, ROSE BAY, NSW
+  description: Dwelling House
+  council_reference: 204/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 19/06/2019
+  on_notice_to: 03/07/2019
+- address: 22 Clarendon Street, VAUCLUSE, NSW
+  description: 'Strata Subdivision:'
+  council_reference: 205/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 19/06/2019
+  on_notice_to: 03/07/2019
+- address: 11 Buller Street, BELLEVUE HILL, NSW
+  description: Residential Flat Building 3 Storeys
+  council_reference: 206/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 19/06/2019
+  on_notice_to: 03/07/2019
+- address: 32 Wentworth Road, VAUCLUSE, NSW
+  description: Dwelling House
+  council_reference: 207/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 26/06/2019
+  on_notice_to: 10/07/2019
+- address: 13 Coolong Road, VAUCLUSE, NSW
+  description: 'Dwelling House:'
+  council_reference: 208/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 26/06/2019
+  on_notice_to: 03/07/2019
+- address: 37 Newcastle Street, ROSE BAY, NSW
+  description: 'Residential Flat Building:'
+  council_reference: 209/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 26/06/2019
+  on_notice_to: 03/07/2019
+- address: 69 Edgecliff Road, WOOLLAHRA, NSW
+  description: Dwelling House
+  council_reference: 210/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 26/06/2019
+  on_notice_to: 03/07/2019
+- address: 5 Thornton Street, DARLING POINT, NSW
+  description: Ancillary Structure/Landscaping
+  council_reference: 211/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 26/06/2019
+  on_notice_to: 10/07/2019
+- address: 1 Ashgate Avenue, 6A Hillside Avenue, VAUCLUSE, NSW
+  description: Dwelling House
+  council_reference: 212/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 26/06/2019
+  on_notice_to: 10/07/2019
+- address: 3 Attunga Street, WOOLLAHRA, NSW
+  description: Dwelling House
+  council_reference: 216/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 26/06/2019
+  on_notice_to: 03/07/2019
+- address: Unit 1 42 Manning Road, DOUBLE BAY, NSW
+  description: Dwelling House
+  council_reference: 217/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 03/07/2019
+  on_notice_to: 10/07/2019
+- address: 167 Edgecliff Road, WOOLLAHRA, NSW
+  description: Section 4.55
+  council_reference: 218/2017
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 03/07/2019
+  on_notice_to: 10/07/2019
+- address: 46 Edgecliff Road, WOOLLAHRA, NSW
+  description: Dwelling House
+  council_reference: 219/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 03/07/2019
+  on_notice_to: 17/07/2019
+- address: 120 Underwood Street, PADDINGTON, NSW
+  description: Dwelling House
+  council_reference: 22/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 26/06/2019
+  on_notice_to: 10/07/2019
+- address: Unit 9A 21 Thornton Street, 21 Thornton Street, DARLING POINT, NSW
+  description: 'Alts and Adds to Residential Flat Bldg:'
+  council_reference: 220/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 03/07/2019
+  on_notice_to: '09/07/2019'
+- address: 13 Hopewell Street, PADDINGTON, NSW
+  description: Dwelling House
+  council_reference: 221/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 03/07/2019
+  on_notice_to: 17/07/2019
+- address: 238 Oxford Street, PADDINGTON, NSW
+  description: Recreation Facility
+  council_reference: 222/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 03/07/2019
+  on_notice_to: 17/07/2019
+- address: 38 Glendon Road, DOUBLE BAY, NSW
+  description: Detached Garage/Carport/Shed
+  council_reference: 223/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 03/07/2019
+  on_notice_to: 10/07/2019
+- address: Unit 2 17 Benelong Crescent, BELLEVUE HILL, NSW
+  description: 'Residential Flat Building:'
+  council_reference: 225/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 03/07/2019
+  on_notice_to: '09/07/2019'
+- address: 46 Bellevue Road, 46A Bellevue Road, BELLEVUE HILL, NSW
+  description: Section 4.55
+  council_reference: 235/2016
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 03/07/2019
+  on_notice_to: 10/07/2019
+- address: 147 Darling Point Road, DARLING POINT, NSW
+  description: 'Section 4.55:'
+  council_reference: 272/2015
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 03/07/2019
+  on_notice_to: '09/07/2019'
+- address: 44 Derby Street, VAUCLUSE, NSW
+  description: Section 4.55
+  council_reference: 335/2016
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 26/06/2019
+  on_notice_to: 10/07/2019
+- address: 29B New South Head Road, VAUCLUSE, NSW
+  description: 'Section 4.55:'
+  council_reference: 401/2017
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 19/06/2019
+  on_notice_to: 18/07/2019
+- address: 33 Girilang Avenue, VAUCLUSE, NSW
+  description: 'Section 4.55:'
+  council_reference: 435/2018
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 26/06/2019
+  on_notice_to: 03/07/2019
+- address: 432 Oxford Street, 434 Oxford Street, PADDINGTON, NSW
+  description: Mixed Residential/Commercial
+  council_reference: 436/2016
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 19/06/2019
+  on_notice_to: 03/07/2019
+- address: 49 New Beach Road, DARLING POINT, NSW
+  description: Dwelling House
+  council_reference: 465/2017
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 03/07/2019
+  on_notice_to: 17/07/2019
+- address: 71 Wallaroy Road, 71 Wallaroy Road, WOOLLAHRA, NSW
+  description: Section 4.55
+  council_reference: 473/2018
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 26/06/2019
+  on_notice_to: 10/07/2019
+- address: 33 Newcastle Street, 31 Newcastle Street, ROSE BAY, NSW
+  description: 'Section 4.55:'
+  council_reference: 5/2018
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 03/07/2019
+  on_notice_to: '09/07/2019'
+- address: 18 Guilfoyle Avenue, 16 Guilfoyle Avenue, DOUBLE BAY, NSW
+  description: Dwelling House
+  council_reference: 50/2019
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 03/07/2019
+  on_notice_to: 17/07/2019
+- address: 14 Tivoli Avenue, 14 Tivoli Avenue, ROSE BAY, NSW
+  description: 'Ancillary Structure/Landscaping:'
+  council_reference: 512/2018
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 26/06/2019
+  on_notice_to: 03/07/2019
+- address: 40 Balfour Road, BELLEVUE HILL, NSW
+  description: 'Section 4.55:'
+  council_reference: 520/2018
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 26/06/2019
+  on_notice_to: 03/07/2019
+- address: 4 Duxford Street, PADDINGTON, NSW
+  description: Section 4.55
+  council_reference: 531/2018
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 03/07/2019
+  on_notice_to: 17/07/2019
+- address: 47 Cambridge Street, PADDINGTON, NSW
+  description: Section 4.55
+  council_reference: 536/2016
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 26/06/2019
+  on_notice_to: 10/07/2019
+- address: 36 Fitzwilliam Road, VAUCLUSE, NSW
+  description: 'Section 4.55:'
+  council_reference: 55/2018
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 03/07/2019
+  on_notice_to: '09/07/2019'
+- address: 7 Bulkara Road, BELLEVUE HILL, NSW
+  description: Dwelling House
+  council_reference: 553/2018
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 19/06/2019
+  on_notice_to: 03/07/2019
+- address: 37 Glenview Street, PADDINGTON, NSW
+  description: Section 4.55
+  council_reference: 601/2017
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 26/06/2019
+  on_notice_to: 10/07/2019
+- address: 5A Kulgoa Road, BELLEVUE HILL, NSW
+  description: Section 4.55
+  council_reference: 613/2015
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 19/06/2019
+  on_notice_to: 03/07/2019
+- address: 122 Bellevue Road, 124 Bellevue Road, 122 Bellevue Road, BELLEVUE HILL,
+    NSW
+  description: Section 4.55
+  council_reference: 72/2018
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 03/07/2019
+  on_notice_to: 17/07/2019
+- address: 21 Bulkara Road, BELLEVUE HILL, NSW
+  description: Section 4.55
+  council_reference: 96/2015
+  info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
+  comment_url: http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da
+  date_scraped: '2019-05-15'
+  on_notice_from: 19/06/2019
+  on_notice_to: 03/07/2019
