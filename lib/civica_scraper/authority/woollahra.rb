@@ -8,7 +8,6 @@ module CivicaScraper
         url = "https://eservices.woollahra.nsw.gov.au/eservice/advertisedDAs.do?&orderBy=suburb&nodeNum=5265"
         # We can't give a link directly to an application. Bummer. So, giving link to the search page
         info_url = "https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270"
-        comment_url = "http://www.woollahra.nsw.gov.au/building_and_development/objections_and_comments/object_or_comment_on_a_da"
 
         agent = Mechanize.new
         agent.verify_mode = OpenSSL::SSL::VERIFY_NONE
@@ -29,7 +28,6 @@ module CivicaScraper
               "description" => block.search('tr')[1].search('td')[2].inner_text.strip,
               "council_reference" => block.search('tr')[3].search('td')[2].inner_text.strip,
               "info_url" => info_url,
-              "comment_url" => comment_url,
               "date_scraped" => Date.today.to_s,
             }
             on_notice_text = block.search('tr')[4].search('td')[2].inner_text.strip

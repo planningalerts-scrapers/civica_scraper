@@ -4,7 +4,7 @@ require 'date'
 module CivicaScraper
   module Authority
     module Burwood
-      def self.scrape_table(agent, scrape_url, comment_url)
+      def self.scrape_table(agent, scrape_url)
       #  puts "Scraping " + scrape_url
         doc = agent.get(scrape_url)
         rows = doc.search('.rowDataOnly > .inputField:nth-child(2)').map { |e| e.inner_text.strip }
@@ -17,7 +17,6 @@ module CivicaScraper
           'address' => rows[0],
           'description' => rows[1],
           'info_url' => "https://ecouncil.burwood.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=219",
-          'comment_url' => comment_url + CGI::escape("Development Application Enquiry: " + reference),
           'date_scraped' => Date.today.to_s,
           'date_received' => date_received
         }
@@ -30,7 +29,6 @@ module CivicaScraper
         date = Date.today - 7
         dateFrom = Date.new(date.year, date.month, date.day).strftime('%d/%m/%Y')
 
-        comment_url = 'mailto:council@burwood.nsw.gov.au?subject='
         starting_url = 'https://ecouncil.burwood.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=219'
         search_result_url = 'https://ecouncil.burwood.nsw.gov.au/eservice/daEnquiryDetails.do?index='
 
@@ -45,7 +43,7 @@ module CivicaScraper
 
         (0..page.search('.non_table_headers').size - 1).each do |i|
           scrape_url = search_result_url + i.to_s
-          scrape_table(agent, scrape_url, comment_url)
+          scrape_table(agent, scrape_url)
         end
       end
     end

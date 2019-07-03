@@ -10,7 +10,6 @@ module CivicaScraper
 
       def self.scrape_and_save
         base_url = "https://ecouncil.wollondilly.nsw.gov.au/eServeDAEnq.htm"
-        comment_url = "mailto:council@wollondilly.nsw.gov.au"
 
         time = Time.new
 
@@ -36,7 +35,6 @@ module CivicaScraper
           record['address']           = results.search('h4')[i].text.gsub('  ', ', ') rescue nil
           record['description']       = results.search('span[contains("Type of Work")] ~ span')[i].text rescue nil
           record['info_url']          = base_url
-          record['comment_url']       = comment_url
           record['date_scraped']      = Date.today.to_s
           record['date_received']     = Date.strptime(results.search('span[contains("Date Lodged")] ~ span')[i].text, '%d/%m/%Y').to_s rescue nil
 
