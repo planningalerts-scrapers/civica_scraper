@@ -4,9 +4,7 @@ require 'date'
 module CivicaScraper
   module Authority
     module Burwood
-      def self.scrape_table(agent, scrape_url)
-      #  puts "Scraping " + scrape_url
-        doc = agent.get(scrape_url)
+      def self.scrape_table(doc)
         rows = doc.search('.rowDataOnly > .inputField:nth-child(2)').map { |e| e.inner_text.strip }
         reference = rows[2]
         date_received = Date.strptime(rows[3], '%d/%m/%Y').to_s rescue nil
@@ -42,8 +40,8 @@ module CivicaScraper
         page = form.submit()
 
         (0..page.search('.non_table_headers').size - 1).each do |i|
-          scrape_url = search_result_url + i.to_s
-          scrape_table(agent, scrape_url)
+          doc = agent.get(search_result_url + i.to_s)
+          scrape_table(doc)
         end
       end
     end
