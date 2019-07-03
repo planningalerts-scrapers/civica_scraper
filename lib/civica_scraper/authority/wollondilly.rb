@@ -17,19 +17,8 @@ module CivicaScraper
 
         time = Time.new
 
-        case ENV['MORPH_PERIOD']
-          when 'lastmonth'
-            dateFrom = (Date.new(time.year, time.month, 1) << 1).strftime('%d/%m/%Y')
-            dateTo   = (Date.new(time.year, time.month, 1)-1).strftime('%d/%m/%Y')
-          when 'thismonth'
-            dateFrom = Date.new(time.year, time.month, 1).strftime('%d/%m/%Y')
-            dateTo   = Date.new(time.year, time.month, -1).strftime('%d/%m/%Y')
-          else
-            dateFrom = (Date.new(time.year, time.month, time.day)-7).strftime('%d/%m/%Y')
-            dateTo   = Date.new(time.year, time.month, time.day).strftime('%d/%m/%Y')
-        end
-
-        puts "Scraping from " + dateFrom + " to " + dateTo + ", changable via MORPH_PERIOD variable"
+        dateFrom = (Date.new(time.year, time.month, time.day)-7).strftime('%d/%m/%Y')
+        dateTo   = Date.new(time.year, time.month, time.day).strftime('%d/%m/%Y')
 
         agent = Mechanize.new
         agent.verify_mode = OpenSSL::SSL::VERIFY_NONE
