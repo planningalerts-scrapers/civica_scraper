@@ -6,6 +6,8 @@ require "civica_scraper/authority/burwood"
 require "civica_scraper/authority/wollondilly"
 require "civica_scraper/authority/woollahra"
 
+require "scraperwiki"
+
 # Scrape civica websites
 module CivicaScraper
   AUTHORITIES = {
@@ -24,5 +26,10 @@ module CivicaScraper
     else
       raise "Unknown authority: #{authority}"
     end
+  end
+
+  def self.save(record)
+    puts "Saving record " + record["council_reference"] + ", " + record["address"]
+    ScraperWiki.save_sqlite(["council_reference"], record)
   end
 end

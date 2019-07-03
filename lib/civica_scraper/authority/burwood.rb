@@ -1,4 +1,3 @@
-require 'scraperwiki'
 require 'mechanize'
 require 'date'
 
@@ -22,9 +21,7 @@ module CivicaScraper
           'date_scraped' => Date.today.to_s,
           'date_received' => date_received
         }
-        puts "Saving record " + record['council_reference'] + ' - ' + record['address']
-      #    puts record
-        ScraperWiki.save_sqlite(['council_reference'], record)
+        CivicaScraper.save(record)
       end
 
       def self.scrape_and_save

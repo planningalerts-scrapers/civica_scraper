@@ -1,4 +1,3 @@
-require 'scraperwiki'
 require 'mechanize'
 require 'date'
 
@@ -42,9 +41,7 @@ module CivicaScraper
           record['date_received']     = Date.strptime(results.search('span[contains("Date Lodged")] ~ span')[i].text, '%d/%m/%Y').to_s rescue nil
 
           unless has_blank?(record)
-            puts "Saving record " + record['council_reference'] + ", " + record['address']
-        #       puts record
-            ScraperWiki.save_sqlite(['council_reference'], record)
+            CivicaScraper.save(record)
           else
             puts "Something not right here: #{record}"
           end

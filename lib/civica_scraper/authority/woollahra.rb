@@ -1,6 +1,3 @@
-require 'scraperwiki'
-# Moved from https://github.com/openaustralia/planningalerts-parsers/blob/master/scrapers/woollahra_scraper.rb
-
 require 'mechanize'
 
 module CivicaScraper
@@ -42,8 +39,7 @@ module CivicaScraper
               raise "Unexpected form for text: #{on_notice_text}"
             end
 
-            ScraperWiki.save_sqlite(['council_reference'], record)
-
+            CivicaScraper.save(record)
           else
             raise "Unexpected type: #{block.name}"
           end
