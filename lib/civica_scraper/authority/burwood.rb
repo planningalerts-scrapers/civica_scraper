@@ -22,10 +22,8 @@ module CivicaScraper
       end
 
       def self.scrape_and_save
-        date = Date.today
-        dateTo   = Date.new(date.year, date.month, date.day).strftime('%d/%m/%Y')
-        date = Date.today - 7
-        dateFrom = Date.new(date.year, date.month, date.day).strftime('%d/%m/%Y')
+        date_from = Date.today - 7
+        date_to = Date.today
 
         general_search_url = 'https://ecouncil.burwood.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=219'
         search_result_url = 'https://ecouncil.burwood.nsw.gov.au/eservice/daEnquiryDetails.do?index='
@@ -35,8 +33,8 @@ module CivicaScraper
         page = agent.get(general_search_url)
         form = page.form_with(name: "daEnquiryForm")
         form['lodgeRangeType'] = 'on'
-        form['dateFrom'] = dateFrom
-        form['dateTo']   = dateTo
+        form['dateFrom'] = date_from.strftime('%d/%m/%Y')
+        form['dateTo']   = date_to.strftime('%d/%m/%Y')
         page = form.submit()
 
         (0..page.search('.non_table_headers').size - 1).each do |i|
