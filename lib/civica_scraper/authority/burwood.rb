@@ -16,9 +16,6 @@ module CivicaScraper
         page = Page::Search.period(page, date_from, date_to)
 
         Page::Index.scrape(page) do |record|
-          # Just use the url for the time being
-          doc = agent.get(record[:url])
-          record = Page::Detail.scrape(doc)
           CivicaScraper.save(
             'council_reference' => record[:council_reference],
             'address' => record[:address],
