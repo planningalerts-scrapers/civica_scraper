@@ -16,15 +16,6 @@ module CivicaScraper
         }
       end
 
-      # For the being just returns the urls of the detail pages
-      def self.scrape_index_page(page)
-        (0..page.search('.non_table_headers').size - 1).each do |i|
-          yield(
-            url: (page.uri + "daEnquiryDetails.do?index=#{i}").to_s
-          )
-        end
-      end
-
       def self.scrape_and_save
         date_from = Date.today - 7
         date_to = Date.today
@@ -37,7 +28,7 @@ module CivicaScraper
 
         page = Page::Search.period(page, date_from, date_to)
 
-        scrape_index_page(page) do |record|
+        Page::Index.scrape(page) do |record|
           # Just use the url for the time being
           doc = agent.get(record[:url])
           record = scrape_detail_page(doc, general_search_url)
