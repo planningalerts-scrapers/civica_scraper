@@ -1,15 +1,7 @@
 module CivicaScraper
   module Authority
     module Woollahra
-      def self.scrape_and_save
-        # Doesn't seem to work without that nodeNum. I wonder what it is.
-        url = "https://eservices.woollahra.nsw.gov.au/eservice/advertisedDAs.do?&orderBy=suburb&nodeNum=5265"
-        # We can't give a link directly to an application. Bummer. So, giving link to the search page
-        info_url = "https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270"
-
-        agent = Mechanize.new
-        page = agent.get(url)
-
+      def self.scrape_index_page(page, info_url)
         # The applications are grouped by suburb. So, stepping through so we can track the current suburb
         current_suburb = nil
         applications = []
@@ -34,10 +26,24 @@ module CivicaScraper
               raise "Unexpected form for text: #{on_notice_text}"
             end
 
-            CivicaScraper.save(record)
+            yield record
           else
             raise "Unexpected type: #{block.name}"
           end
+        end
+      end
+
+      def self.scrape_and_save
+        # Doesn't seem to work without that nodeNum. I wonder what it is.
+        url = "https://eservices.woollahra.nsw.gov.au/eservice/advertisedDAs.do?&orderBy=suburb&nodeNum=5265"
+        # We can't give a link directly to an application. Bummer. So, giving link to the search page
+        info_url = "https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270"
+
+        agent = Mechanize.new
+        page = agent.get(url)
+
+        scrape_index_page(page, info_url) do |record|
+          CivicaScraper.save(record)
         end
       end
     end
