@@ -19,11 +19,12 @@ module CivicaScraper
 
         count = results.search("h4").size - 1
         (0..count).each do |i|
+          date_received = results.search("span[contains('Date Lodged')] ~ span")[i].text
           yield(
-            council_reference: (results.search("span[contains('Application No.')] ~ span")[i].text rescue nil),
-            address: (results.search("h4")[i].text.gsub("  ", ", ") rescue nil),
-            description: (results.search("span[contains('Type of Work')] ~ span")[i].text rescue nil),
-            date_received: (Date.strptime(results.search("span[contains('Date Lodged')] ~ span")[i].text, "%d/%m/%Y").to_s rescue nil)
+            council_reference: results.search("span[contains('Application No.')] ~ span")[i].text,
+            address: results.search("h4")[i].text.gsub("  ", ", "),
+            description: results.search("span[contains('Type of Work')] ~ span")[i].text,
+            date_received: Date.strptime(date_received, "%d/%m/%Y").to_s
           )
         end
       end
