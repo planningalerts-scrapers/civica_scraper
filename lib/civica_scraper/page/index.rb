@@ -16,7 +16,7 @@ module CivicaScraper
         (0..count).each do |i|
           yield(
             council_reference: council_references[i].text,
-            address: addresses[i].text.gsub("  ", ", "),
+            address: addresses[i].text,
             description: descriptions[i].text,
             date_received: Date.strptime(dates_received[i].text, "%d/%m/%Y").to_s,
             url: (page.uri + "daEnquiryDetails.do?index=#{i}").to_s
