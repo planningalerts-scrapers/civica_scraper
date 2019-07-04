@@ -5,17 +5,7 @@ module CivicaScraper
         record.values.any?{|v| v.nil? || v.length == 0}
       end
 
-      def self.scrape_and_save
-        base_url = "https://ecouncil.wollondilly.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=40801"
-
-        date_from = Date.today - 7
-        date_to = Date.today
-
-        agent = Mechanize.new
-        datepage = agent.get(base_url)
-
-        formpage = Page::Search.period(datepage, date_from, date_to)
-
+      def self.scrape_index_page(formpage, base_url)
         results = formpage.at('div.bodypanel ~ div')
 
         count = results.search("h4").size - 1
@@ -29,10 +19,26 @@ module CivicaScraper
           record['date_received']     = Date.strptime(results.search('span[contains("Date Lodged")] ~ span')[i].text, '%d/%m/%Y').to_s rescue nil
 
           unless has_blank?(record)
-            CivicaScraper.save(record)
+            yield record
           else
             puts "Something not right here: #{record}"
           end
+        end
+      end
+
+      def self.scrape_and_save
+        base_url = "https://ecouncil.wollondilly.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=40801"
+
+        date_from = Date.today - 7
+        date_to = Date.today
+
+        agent = Mechanize.new
+        datepage = agent.get(base_url)
+
+        formpage = Page::Search.period(datepage, date_from, date_to)
+
+        scrape_index_page(formpage, base_url) do |record|
+          CivicaScraper.save(record)
         end
       end
     end
