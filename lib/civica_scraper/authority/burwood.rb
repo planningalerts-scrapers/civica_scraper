@@ -17,10 +17,10 @@ module CivicaScraper
       end
 
       # For the being just returns the urls of the detail pages
-      def self.scrape_index_page(page, search_result_url)
+      def self.scrape_index_page(page)
         (0..page.search('.non_table_headers').size - 1).each do |i|
           yield(
-            url: search_result_url + i.to_s
+            url: (page.uri + "daEnquiryDetails.do?index=#{i}").to_s
           )
         end
       end
@@ -30,7 +30,6 @@ module CivicaScraper
         date_to = Date.today
 
         general_search_url = 'https://ecouncil.burwood.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=219'
-        search_result_url = 'https://ecouncil.burwood.nsw.gov.au/eservice/daEnquiryDetails.do?index='
 
         # Grab the starting page and go into each link to get a more reliable data format.
         agent = Mechanize.new
@@ -38,7 +37,7 @@ module CivicaScraper
 
         page = Page::Search.period(page, date_from, date_to)
 
-        scrape_index_page(page, search_result_url) do |record|
+        scrape_index_page(page) do |record|
           # Just use the url for the time being
           doc = agent.get(record[:url])
           record = scrape_detail_page(doc, general_search_url)
