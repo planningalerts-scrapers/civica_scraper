@@ -5,20 +5,6 @@ module CivicaScraper
         record.values.any?{|v| v.nil? || v.length == 0}
       end
 
-      def self.scrape_index_page(formpage)
-        results = formpage.at('div.bodypanel ~ div')
-
-        count = results.search("h4").size - 1
-        for i in 0..count
-          yield(
-            council_reference: (results.search('span[contains("Application No.")] ~ span')[i].text rescue nil),
-            address: (results.search('h4')[i].text.gsub('  ', ', ') rescue nil),
-            description: (results.search('span[contains("Type of Work")] ~ span')[i].text rescue nil),
-            date_received: (Date.strptime(results.search('span[contains("Date Lodged")] ~ span')[i].text, '%d/%m/%Y').to_s rescue nil)
-          )
-        end
-      end
-
       def self.scrape_and_save
         base_url = "https://ecouncil.wollondilly.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=40801"
 
@@ -30,7 +16,7 @@ module CivicaScraper
 
         formpage = Page::Search.period(datepage, date_from, date_to)
 
-        scrape_index_page(formpage) do |record|
+        Page::Index.scrape_v2(formpage) do |record|
           unless has_blank?(record)
             CivicaScraper.save(
               'council_reference' => record[:council_reference],

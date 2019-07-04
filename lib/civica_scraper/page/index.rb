@@ -12,6 +12,21 @@ module CivicaScraper
           )
         end
       end
+
+      # A slightly different version of this page
+      def self.scrape_v2(formpage)
+        results = formpage.at("div.bodypanel ~ div")
+
+        count = results.search("h4").size - 1
+        (0..count).each do |i|
+          yield(
+            council_reference: (results.search("span[contains('Application No.')] ~ span")[i].text rescue nil),
+            address: (results.search("h4")[i].text.gsub("  ", ", ") rescue nil),
+            description: (results.search("span[contains('Type of Work')] ~ span")[i].text rescue nil),
+            date_received: (Date.strptime(results.search("span[contains('Date Lodged')] ~ span")[i].text, "%d/%m/%Y").to_s rescue nil)
+          )
+        end
+      end
     end
   end
 end
