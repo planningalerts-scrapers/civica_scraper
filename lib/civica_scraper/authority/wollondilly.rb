@@ -8,10 +8,8 @@ module CivicaScraper
       def self.scrape_and_save
         base_url = "https://ecouncil.wollondilly.nsw.gov.au/eServeDAEnq.htm"
 
-        time = Time.new
-
-        dateFrom = (Date.new(time.year, time.month, time.day)-7).strftime('%d/%m/%Y')
-        dateTo   = Date.new(time.year, time.month, time.day).strftime('%d/%m/%Y')
+        date_from = Date.today - 7
+        date_to = Date.today
 
         agent = Mechanize.new
         agent.verify_mode = OpenSSL::SSL::VERIFY_NONE
@@ -19,8 +17,8 @@ module CivicaScraper
         datepage = basepage.iframes.first.click
 
         formpage = datepage.form_with(:name => 'daEnquiryForm') do |f|
-          f.dateFrom = dateFrom
-          f.dateTo   = dateTo
+          f.dateFrom = date_from.strftime('%d/%m/%Y')
+          f.dateTo   = date_to.strftime('%d/%m/%Y')
         end.click_button
 
         results = formpage.at('div.bodypanel ~ div')
