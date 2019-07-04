@@ -12,7 +12,6 @@ module CivicaScraper
         date_to = Date.today
 
         agent = Mechanize.new
-        agent.verify_mode = OpenSSL::SSL::VERIFY_NONE
         datepage = agent.get(base_url)
 
         formpage = Page::Search.period(datepage, date_from, date_to)
