@@ -41,7 +41,7 @@ http_interactions:
       - ASP.NET
       - ASP.NET
       Date:
-      - Wed, 03 Jul 2019 07:16:39 GMT
+      - Thu, 04 Jul 2019 03:58:21 GMT
       Content-Length:
       - '1104'
     body:
@@ -102,13 +102,13 @@ http_interactions:
       Expires:
       - '0'
       Set-Cookie:
-      - JSESSIONID_live=0000MvEjwpBx-ram8Mpt2c1jvzq:-1; Path=/
+      - JSESSIONID_live=00006hH42HfZkH6yFjid49Irz4I:-1; Path=/
       X-Powered-By:
       - ARR/3.0
       - ASP.NET
       - ASP.NET
       Date:
-      - Wed, 03 Jul 2019 07:16:42 GMT
+      - Thu, 04 Jul 2019 03:58:21 GMT
       Content-Length:
       - '27265'
     body:
@@ -299,7 +299,7 @@ http_interactions:
         '', 'DADateFrom', 'DADateTo')\" />\r\n            <span class=\"radioText\">Specified
         Range</span>\r\n          </label>\r\n          <label class=\"radio-inline\">\r\n
         \           <input type=\"radio\" name=\"lodgeRangeType\" id=\"lodgeRangeType\"
-        onclick=\"javascript:setDateRange('30/06/2019','03/07/2019', 'DADateFrom',
+        onclick=\"javascript:setDateRange('30/06/2019','04/07/2019', 'DADateFrom',
         'DADateTo')\" />\r\n            <span class=\"radioText\">This Week</span>\r\n
         \         </label>\r\n          <label class=\"radio-inline\">\r\n            <input
         type=\"radio\" name=\"lodgeRangeType\" id=\"lodgeRangeType\" onclick=\"javascript:setDateRange('23/06/2019','29/06/2019',
@@ -330,7 +330,7 @@ http_interactions:
         'detDateToString')\" />\r\n            <span class=\"radioText\">Specified
         Range</span>\r\n          </label>\r\n          <label class=\"radio-inline\">\r\n
         \           <input type=\"radio\" name=\"detRangeType\" id=\"detRangeType\"
-        onclick=\"javascript:setDateRange('30/06/2019','03/07/2019', 'detDateFromString',
+        onclick=\"javascript:setDateRange('30/06/2019','04/07/2019', 'detDateFromString',
         'detDateToString')\" />\r\n            <span class=\"radioText\">This Week</span>\r\n
         \         </label>\r\n          <label class=\"radio-inline\">\r\n            <input
         type=\"radio\" name=\"detRangeType\" id=\"detRangeType\" onclick=\"javascript:setDateRange('23/06/2019','29/06/2019',
@@ -456,7 +456,7 @@ http_interactions:
   recorded_at: Tue, 14 May 2019 14:00:00 GMT
 - request:
     method: get
-    uri: https://ecouncil.wollondilly.nsw.gov.au/eservice/dialog/daEnquiry.do?dateFrom=08/05/2019&dateTo=15/05/2019&detDateFromString=&detDateToString=&houseNum=0%0A%09%09%09%09%09&lotNumber=&number=&planNumber=&propertyName=&searchMode=A&strataPlan=&streetName=&submitButton=Search&suburb=0&unitNum=
+    uri: https://ecouncil.wollondilly.nsw.gov.au/eservice/dialog/daEnquiry.do?dateFrom=08/05/2019&dateTo=15/05/2019&detDateFromString=&detDateToString=&houseNum=0%0A%09%09%09%09%09&lotNumber=&number=&planNumber=&propertyName=&searchMode=A&strataPlan=&streetName=&suburb=0&unitNum=
     body:
       encoding: US-ASCII
       string: ''
@@ -472,7 +472,7 @@ http_interactions:
       Accept-Language:
       - en-us,en;q=0.5
       Cookie:
-      - JSESSIONID_live=0000MvEjwpBx-ram8Mpt2c1jvzq:-1
+      - JSESSIONID_live=00006hH42HfZkH6yFjid49Irz4I:-1
       Host:
       - ecouncil.wollondilly.nsw.gov.au
       Referer:
@@ -501,7 +501,7 @@ http_interactions:
       - ASP.NET
       - ASP.NET
       Date:
-      - Wed, 03 Jul 2019 07:16:43 GMT
+      - Thu, 04 Jul 2019 03:58:24 GMT
       Content-Length:
       - '39093'
     body:
