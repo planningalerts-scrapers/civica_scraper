@@ -16,10 +16,12 @@ module CivicaScraper
         basepage = agent.get(base_url)
         datepage = basepage.iframes.first.click
 
-        formpage = datepage.form_with(:name => 'daEnquiryForm') do |f|
-          f.dateFrom = date_from.strftime('%d/%m/%Y')
-          f.dateTo   = date_to.strftime('%d/%m/%Y')
-        end.click_button
+        page = datepage
+
+        form = page.form_with(name: 'daEnquiryForm')
+        form.dateFrom = date_from.strftime('%d/%m/%Y')
+        form.dateTo   = date_to.strftime('%d/%m/%Y')
+        formpage = form.click_button
 
         results = formpage.at('div.bodypanel ~ div')
 
