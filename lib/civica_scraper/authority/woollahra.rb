@@ -8,7 +8,6 @@ module CivicaScraper
         info_url = "https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270"
 
         agent = Mechanize.new
-        agent.verify_mode = OpenSSL::SSL::VERIFY_NONE
         page = agent.get(url)
 
         # The applications are grouped by suburb. So, stepping through so we can track the current suburb
