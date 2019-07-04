@@ -5,24 +5,17 @@ module CivicaScraper
         record.values.any?{|v| v.nil? || v.length == 0}
       end
 
-      def self.scrape_index_page(formpage, base_url)
+      def self.scrape_index_page(formpage)
         results = formpage.at('div.bodypanel ~ div')
 
         count = results.search("h4").size - 1
         for i in 0..count
-          record = {}
-          record['council_reference'] = results.search('span[contains("Application No.")] ~ span')[i].text rescue nil
-          record['address']           = results.search('h4')[i].text.gsub('  ', ', ') rescue nil
-          record['description']       = results.search('span[contains("Type of Work")] ~ span')[i].text rescue nil
-          record['info_url']          = base_url
-          record['date_scraped']      = Date.today.to_s
-          record['date_received']     = Date.strptime(results.search('span[contains("Date Lodged")] ~ span')[i].text, '%d/%m/%Y').to_s rescue nil
-
-          unless has_blank?(record)
-            yield record
-          else
-            puts "Something not right here: #{record}"
-          end
+          yield(
+            council_reference: (results.search('span[contains("Application No.")] ~ span')[i].text rescue nil),
+            address: (results.search('h4')[i].text.gsub('  ', ', ') rescue nil),
+            description: (results.search('span[contains("Type of Work")] ~ span')[i].text rescue nil),
+            date_received: (Date.strptime(results.search('span[contains("Date Lodged")] ~ span')[i].text, '%d/%m/%Y').to_s rescue nil)
+          )
         end
       end
 
@@ -37,8 +30,19 @@ module CivicaScraper
 
         formpage = Page::Search.period(datepage, date_from, date_to)
 
-        scrape_index_page(formpage, base_url) do |record|
-          CivicaScraper.save(record)
+        scrape_index_page(formpage) do |record|
+          unless has_blank?(record)
+            CivicaScraper.save(
+              'council_reference' => record[:council_reference],
+              'address' => record[:address],
+              'description' => record[:description],
+              'info_url' => base_url,
+              'date_scraped' => Date.today.to_s,
+              'date_received' => record[:date_received]
+            )
+          else
+            puts "Something not right here: #{record}"
+          end
         end
       end
     end
