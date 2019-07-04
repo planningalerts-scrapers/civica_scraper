@@ -11,6 +11,12 @@ module CivicaScraper
         form.dateTo   = date_to.strftime("%d/%m/%Y")
         form.submit
       end
+
+      def self.advertised(page)
+        form = page.form_with(name: "daEnquiryForm")
+        form.radiobutton_with(name: "searchMode", value: "C").check
+        form.submit
+      end
     end
   end
 end
