@@ -1,21 +1,19 @@
 module CivicaScraper
   module Authority
     module Burwood
-      def self.scrape_table(doc, info_url)
+      def self.scrape_detail_page(doc, info_url)
         rows = doc.search('.rowDataOnly > .inputField:nth-child(2)').map { |e| e.inner_text.strip }
         reference = rows[2]
         date_received = Date.strptime(rows[3], '%d/%m/%Y').to_s rescue nil
         puts "Invalid date: #{rows[3].inspect}" unless date_received
 
-        record = {
-          'council_reference' => reference,
-          'address' => rows[0],
-          'description' => rows[1],
-          'info_url' => info_url,
-          'date_scraped' => Date.today.to_s,
-          'date_received' => date_received
+        {
+          council_reference: reference,
+          address: rows[0],
+          description: rows[1],
+          info_url: info_url,
+          date_received: date_received
         }
-        CivicaScraper.save(record)
       end
 
       # For the being just returns the urls of the detail pages
@@ -43,7 +41,15 @@ module CivicaScraper
         scrape_index_page(page, search_result_url) do |record|
           # Just use the url for the time being
           doc = agent.get(record[:url])
-          scrape_table(doc, general_search_url)
+          record = scrape_detail_page(doc, general_search_url)
+          CivicaScraper.save(
+            'council_reference' => record[:council_reference],
+            'address' => record[:address],
+            'description' => record[:description],
+            'info_url' => record[:info_url],
+            'date_received' => record[:date_received],
+            'date_scraped' => Date.today.to_s
+          )
         end
       end
     end
