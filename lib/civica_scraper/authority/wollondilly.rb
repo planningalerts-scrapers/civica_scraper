@@ -6,15 +6,14 @@ module CivicaScraper
       end
 
       def self.scrape_and_save
-        base_url = "https://ecouncil.wollondilly.nsw.gov.au/eServeDAEnq.htm"
+        base_url = "https://ecouncil.wollondilly.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=40801"
 
         date_from = Date.today - 7
         date_to = Date.today
 
         agent = Mechanize.new
         agent.verify_mode = OpenSSL::SSL::VERIFY_NONE
-        basepage = agent.get(base_url)
-        datepage = basepage.iframes.first.click
+        datepage = agent.get(base_url)
 
         formpage = Page::Search.period(datepage, date_from, date_to)
 
