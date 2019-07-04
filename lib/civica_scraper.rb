@@ -3,6 +3,7 @@
 require "civica_scraper/authority/burwood"
 require "civica_scraper/authority/wollondilly"
 require "civica_scraper/authority/woollahra"
+require "civica_scraper/page/detail"
 require "civica_scraper/page/index"
 require "civica_scraper/page/search"
 require "civica_scraper/version"
