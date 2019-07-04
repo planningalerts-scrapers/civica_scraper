@@ -4,27 +4,22 @@ module CivicaScraper
   module Page
     # Page with list of development applications
     module Index
-      # For the being just returns the urls of the detail pages
       def self.scrape(page)
-        (0..page.search(".non_table_headers").size - 1).each do |i|
-          yield(
-            url: (page.uri + "daEnquiryDetails.do?index=#{i}").to_s
-          )
-        end
-      end
-
-      # A slightly different version of this page
-      def self.scrape_v2(formpage)
-        results = formpage.at("div.bodypanel ~ div")
-
+        results = page.at("div.bodypanel ~ div")
         count = results.search("h4").size - 1
+
+        dates_received = results.search("span[contains('Date Lodged')] ~ span")
+        council_references = results.search("span[contains('Application No.')] ~ span")
+        addresses = results.search("h4")
+        descriptions = results.search("span[contains('Type of Work')] ~ span")
+
         (0..count).each do |i|
-          date_received = results.search("span[contains('Date Lodged')] ~ span")[i].text
           yield(
-            council_reference: results.search("span[contains('Application No.')] ~ span")[i].text,
-            address: results.search("h4")[i].text.gsub("  ", ", "),
-            description: results.search("span[contains('Type of Work')] ~ span")[i].text,
-            date_received: Date.strptime(date_received, "%d/%m/%Y").to_s
+            council_reference: council_references[i].text,
+            address: addresses[i].text.gsub("  ", ", "),
+            description: descriptions[i].text,
+            date_received: Date.strptime(dates_received[i].text, "%d/%m/%Y").to_s,
+            url: (page.uri + "daEnquiryDetails.do?index=#{i}").to_s
           )
         end
       end

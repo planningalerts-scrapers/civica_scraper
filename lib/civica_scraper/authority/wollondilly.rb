@@ -16,7 +16,7 @@ module CivicaScraper
 
         formpage = Page::Search.period(datepage, date_from, date_to)
 
-        Page::Index.scrape_v2(formpage) do |record|
+        Page::Index.scrape(formpage) do |record|
           unless has_blank?(record)
             CivicaScraper.save(
               'council_reference' => record[:council_reference],
