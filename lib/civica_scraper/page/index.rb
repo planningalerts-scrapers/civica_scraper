@@ -6,20 +6,20 @@ module CivicaScraper
     module Index
       def self.scrape(page)
         results = page.at("div.bodypanel ~ div")
-        count = results.search("h4").size - 1
 
-        dates_received = results.search("span[contains('Date Lodged')] ~ span")
-        council_references = results.search("span[contains('Application No.')] ~ span")
-        addresses = results.search("h4")
-        descriptions = results.search("span[contains('Type of Work')] ~ span")
+        results.search("h4").each do |address|
+          d = address.next_sibling
 
-        (0..count).each do |i|
+          council_reference = d.at("span[contains('Application No.')] ~ span").text
+          description = d.at("span[contains('Type of Work')] ~ span").text
+          date_received = d.at("span[contains('Date Lodged')] ~ span").text
+
           yield(
-            council_reference: council_references[i].text,
-            address: addresses[i].text,
-            description: descriptions[i].text,
-            date_received: Date.strptime(dates_received[i].text, "%d/%m/%Y").to_s,
-            url: (page.uri + "daEnquiryDetails.do?index=#{i}").to_s
+            council_reference: council_reference,
+            address: address.text,
+            description: description,
+            date_received: Date.strptime(date_received, "%d/%m/%Y").to_s,
+            url: (page.uri + address.at("a")["href"]).to_s
           )
         end
       end
