@@ -21,13 +21,12 @@ module CivicaScraper
       end
 
       def self.extract_fields(div)
-        result = {}
-        div.search("p").each do |p|
+        result = div.search("p").map do |p|
           key = p.at("span.key").inner_text
           value = p.at("span.inputField").inner_text
-          result[normalise_key(key, value)] = value
+          [normalise_key(key, value), value]
         end
-        result
+        result.to_h
       end
 
       def self.normalise_key(key, value)
