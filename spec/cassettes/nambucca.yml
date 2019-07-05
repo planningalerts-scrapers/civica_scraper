@@ -48,9 +48,9 @@ http_interactions:
       - ASP.NET
       - Servlet/3.1
       Set-Cookie:
-      - JSESSIONID_live=0000aCWpGmdzEAP6phTHm5k-4Mj:-1; Path=/; HttpOnly
+      - JSESSIONID_live=00004TmRgXTHqFb96F067jSdy7n:-1; Path=/; HttpOnly
       Date:
-      - Fri, 05 Jul 2019 15:13:20 GMT
+      - Fri, 05 Jul 2019 15:24:31 GMT
       Connection:
       - close
     body:
@@ -61,7 +61,7 @@ http_interactions:
   recorded_at: Tue, 14 May 2019 14:00:00 GMT
 - request:
     method: get
-    uri: https://eservices.nambucca.nsw.gov.au/eservice/daEnquiry.do?dateFrom=05/05/2019&dateTo=15/05/2019&detDateFromString=&detDateToString=&houseNum=0%0A%09%09%09%09%09%09&lodgeRangeType=on&lotNumber=&number=&planNumber=&propertyName=&searchMode=A&strataPlan=&streetName=&suburb=0&unitNum=
+    uri: https://eservices.nambucca.nsw.gov.au/eservice/daEnquiry.do?dateFrom=05/05/2019&dateTo=15/05/2019&detDateFromString=&detDateToString=&houseNum=0%0A%09%09%09%09%09%09&lotNumber=&number=&planNumber=&propertyName=&searchMode=A&strataPlan=&streetName=&suburb=0&unitNum=
     body:
       encoding: US-ASCII
       string: ''
@@ -77,7 +77,7 @@ http_interactions:
       Accept-Language:
       - en-us,en;q=0.5
       Cookie:
-      - JSESSIONID_live=0000aCWpGmdzEAP6phTHm5k-4Mj:-1
+      - JSESSIONID_live=00004TmRgXTHqFb96F067jSdy7n:-1
       Host:
       - eservices.nambucca.nsw.gov.au
       Referer:
@@ -111,7 +111,7 @@ http_interactions:
       - ASP.NET
       - Servlet/3.1
       Date:
-      - Fri, 05 Jul 2019 15:13:21 GMT
+      - Fri, 05 Jul 2019 15:24:31 GMT
       Connection:
       - close
     body:
