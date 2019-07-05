@@ -15,7 +15,8 @@ module CivicaScraper
     burwood: {},
     wollondilly: {},
     woollahra: {},
-    nambucca: {}
+    nambucca: {},
+    cairns: {}
   }.freeze
 
   def self.scrape_and_save(authority)
@@ -39,6 +40,13 @@ module CivicaScraper
       CivicaScraper.scrape_and_save_period(
         "https://eservices.nambucca.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=2811",
         Date.today - 10,
+        Date.today
+      )
+    elsif authority == :cairns
+      # Scrape this month
+      CivicaScraper.scrape_and_save_period(
+        "https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227",
+        Date.new(Date.today.year, Date.today.month, 1),
         Date.today
       )
     else

@@ -21,6 +21,8 @@ module CivicaScraper
       end
 
       def self.extract_fields(div)
+        # TODO: Make sure that we don't extract the
+        # same normalised key more than once
         result = div.search("p").map do |p|
           key = p.at("span.key").inner_text
           value = p.at("span.inputField").inner_text
@@ -31,9 +33,9 @@ module CivicaScraper
 
       def self.normalise_key(key, value)
         case key
-        when "Type of Work"
+        when "Type of Work", "Description of Work"
           :description
-        when "Application No."
+        when "Application No.", "Reference No."
           :council_reference
         when "Date Lodged"
           :date_received
