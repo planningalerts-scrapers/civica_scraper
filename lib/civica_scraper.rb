@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require "civica_scraper/authority/nambucca"
 require "civica_scraper/authority/woollahra"
 require "civica_scraper/page/detail"
 require "civica_scraper/page/index"
@@ -14,7 +15,8 @@ module CivicaScraper
   AUTHORITIES = {
     burwood: {},
     wollondilly: {},
-    woollahra: {}
+    woollahra: {},
+    nambucca: {}
   }.freeze
 
   def self.scrape_and_save(authority)
@@ -34,6 +36,8 @@ module CivicaScraper
       )
     elsif authority == :woollahra
       Authority::Woollahra.scrape_and_save
+    elsif authority == :nambucca
+      Authority::Nambucca.scrape_and_save
     else
       raise "Unknown authority: #{authority}"
     end
