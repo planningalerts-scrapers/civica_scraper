@@ -12,7 +12,7 @@ module CivicaScraper
 
           yield(
             council_reference: fields[:council_reference],
-            address: address.text,
+            address: address.text.squeeze(" "),
             description: fields[:description],
             date_received: Date.strptime(fields[:date_received], "%d/%m/%Y").to_s,
             url: (page.uri + address.at("a")["href"]).to_s
