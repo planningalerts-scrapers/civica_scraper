@@ -7,7 +7,6 @@ module CivicaScraper
         date = Date.today - 10
         dateFrom = Date.new(date.year, date.month, date.day).strftime('%d/%m/%Y')
 
-        comment_url = 'mailto:council@nambucca.nsw.gov.au'
         info_url = 'https://eservices.nambucca.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=2811'
 
         # Grab the starting page and put in the date and her we go
@@ -30,7 +29,6 @@ module CivicaScraper
             'address' => heading.inner_text,
             'description' => d.at('span:contains("Type of Work") ~ span').inner_text,
             'info_url' => info_url,
-            'comment_url' => comment_url,
             'date_scraped' => Date.today.to_s,
             'date_received' => date_received
           }
