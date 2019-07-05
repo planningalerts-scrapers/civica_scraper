@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require "civica_scraper/authority/nambucca"
 require "civica_scraper/authority/woollahra"
 require "civica_scraper/page/detail"
 require "civica_scraper/page/index"
@@ -37,7 +36,11 @@ module CivicaScraper
     elsif authority == :woollahra
       Authority::Woollahra.scrape_and_save
     elsif authority == :nambucca
-      Authority::Nambucca.scrape_and_save
+      CivicaScraper.scrape_and_save_period(
+        "https://eservices.nambucca.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=2811",
+        Date.today - 10,
+        Date.today
+      )
     else
       raise "Unknown authority: #{authority}"
     end

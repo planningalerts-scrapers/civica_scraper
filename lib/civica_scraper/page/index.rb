@@ -7,7 +7,7 @@ module CivicaScraper
       def self.scrape(page)
         results = page.at("div.bodypanel ~ div")
 
-        results.search("h4").each do |address|
+        results.search("h4, h2").each do |address|
           fields = extract_fields(address.next_sibling)
 
           yield(
