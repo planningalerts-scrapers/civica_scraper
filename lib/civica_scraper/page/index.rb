@@ -21,11 +21,36 @@ module CivicaScraper
       end
 
       def self.extract_fields(div)
-        {
-          council_reference: div.at("span[contains('Application No.')] ~ span").text,
-          description: div.at("span[contains('Type of Work')] ~ span").text,
-          date_received: div.at("span[contains('Date Lodged')] ~ span").text
-        }
+        result = {}
+        div.search("p").each do |p|
+          key = p.at("span.key").inner_text
+          value = p.at("span.inputField").inner_text
+          result[normalise_key(key, value)] = value
+        end
+        result
+      end
+
+      def self.normalise_key(key, value)
+        case key
+        when "Type of Work"
+          :description
+        when "Application No."
+          :council_reference
+        when "Date Lodged"
+          :date_received
+        when "Applicant"
+          :applicant
+        when "Cost of Work"
+          :cost_of_work
+        when "Determination Details"
+          :determination_details
+        when "Determination Date"
+          :determination_date
+        when "Certifier"
+          :certifier
+        else
+          raise "Unknown key: #{key} with value: #{value}"
+        end
       end
     end
   end
