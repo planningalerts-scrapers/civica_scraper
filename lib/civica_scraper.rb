@@ -43,10 +43,9 @@ module CivicaScraper
         Date.today
       )
     elsif authority == :cairns
-      # Scrape this month
       CivicaScraper.scrape_and_save_period(
         "https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227",
-        Date.new(Date.today.year, Date.today.month, 1),
+        Date.today - 30,
         Date.today
       )
     else
