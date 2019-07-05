@@ -11,10 +11,7 @@ module CivicaScraper
         agent = Mechanize.new
         page = agent.get(info_url)
 
-        form = page.form_with(name: "daEnquiryForm")
-        form['dateFrom'] = date_from.strftime('%d/%m/%Y')
-        form['dateTo']   = date_to.strftime('%d/%m/%Y')
-        page = form.submit()
+        page = Page::Search.period(page, date_from, date_to)
 
         headings = page.at('.bodypanel ~ div').search('h2')
         (0..headings.size - 1).each do |i|
