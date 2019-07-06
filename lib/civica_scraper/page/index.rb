@@ -9,10 +9,11 @@ module CivicaScraper
 
         results.search("h4, h2").each do |address|
           fields = extract_fields(address.next_sibling)
+          fields[:description] ||= "No description provided"
 
           yield(
             council_reference: fields[:council_reference],
-            address: address.text.squeeze(" "),
+            address: address.text.split(" - ")[0].squeeze(" "),
             description: fields[:description],
             date_received: Date.strptime(fields[:date_received], "%d/%m/%Y").to_s,
             url: (page.uri + address.at("a")["href"]).to_s
@@ -28,9 +29,7 @@ module CivicaScraper
           value = p.at("span.inputField").inner_text
           [normalise_key(key, value), value]
         end
-        result = result.to_h
-        result[:description] ||= "No description provided"
-        result
+        result.to_h
       end
 
       def self.normalise_key(key, value)
@@ -51,6 +50,8 @@ module CivicaScraper
           :determination_date
         when "Certifier"
           :certifier
+        when "Assessing Body"
+          :assessing_body
         else
           raise "Unknown key: #{key} with value: #{value}"
         end
