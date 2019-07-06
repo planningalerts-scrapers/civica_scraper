@@ -17,7 +17,8 @@ module CivicaScraper
     woollahra: {},
     nambucca: {},
     cairns: {},
-    mount_gambier: {}
+    mount_gambier: {},
+    norwood: {}
   }.freeze
 
   def self.scrape_and_save(authority)
@@ -54,6 +55,12 @@ module CivicaScraper
       CivicaScraper.scrape_and_save_period(
         "https://ecouncil.mountgambier.sa.gov.au/eservice/daEnquiryInit.do?nodeNum=21461",
         Date.today << 2,
+        Date.today
+      )
+    elsif authority == :norwood
+      CivicaScraper.scrape_and_save_period(
+        "https://ecouncil.npsp.sa.gov.au/eservice/daEnquiryInit.do?doc_typ=155&nodeNum=10209",
+        Date.today << 1,
         Date.today
       )
     else
