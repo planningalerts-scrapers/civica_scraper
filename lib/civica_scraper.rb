@@ -16,7 +16,8 @@ module CivicaScraper
     wollondilly: {},
     woollahra: {},
     nambucca: {},
-    cairns: {}
+    cairns: {},
+    mount_gambier: {}
   }.freeze
 
   def self.scrape_and_save(authority)
@@ -46,6 +47,13 @@ module CivicaScraper
       CivicaScraper.scrape_and_save_period(
         "https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227",
         Date.today - 30,
+        Date.today
+      )
+    elsif authority == :mount_gambier
+      # Scrapes last two months
+      CivicaScraper.scrape_and_save_period(
+        "https://ecouncil.mountgambier.sa.gov.au/eservice/daEnquiryInit.do?nodeNum=21461",
+        Date.today << 2,
         Date.today
       )
     else
