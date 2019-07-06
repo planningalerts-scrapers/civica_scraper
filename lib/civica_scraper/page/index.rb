@@ -28,7 +28,9 @@ module CivicaScraper
           value = p.at("span.inputField").inner_text
           [normalise_key(key, value), value]
         end
-        result.to_h
+        result = result.to_h
+        result[:description] ||= "No description provided"
+        result
       end
 
       def self.normalise_key(key, value)
