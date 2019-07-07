@@ -12,76 +12,58 @@ require "mechanize"
 # Scrape civica websites
 module CivicaScraper
   AUTHORITIES = {
-    burwood: {},
-    wollondilly: {},
+    burwood: {
+      url: "https://ecouncil.burwood.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=219",
+      period: :last7days
+    },
+    wollondilly: {
+      url: "https://ecouncil.wollondilly.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=40801",
+      period: :last7days
+    },
     woollahra: {},
-    nambucca: {},
-    cairns: {},
-    mount_gambier: {},
-    norwood: {},
-    tea_tree_gully: {},
-    loxton_waikerie: {},
-    orange: {},
-    gawler: {}
+    nambucca: {
+      url:
+        "https://eservices.nambucca.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=2811",
+      period: :last10days
+    },
+    cairns: {
+      url: "https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227",
+      period: :last30days
+    },
+    mount_gambier: {
+      url: "https://ecouncil.mountgambier.sa.gov.au/eservice/daEnquiryInit.do?nodeNum=21461",
+      period: :last2months
+    },
+    norwood: {
+      url: "https://ecouncil.npsp.sa.gov.au/eservice/daEnquiryInit.do?doc_typ=155&nodeNum=10209",
+      period: :lastmonth
+    },
+    tea_tree_gully: {
+      url: "https://www.ecouncil.teatreegully.sa.gov.au/eservice/daEnquiryInit.do?nodeNum=131612",
+      period: :lastmonth
+    },
+    loxton_waikerie: {
+      url: "https://eservices.loxtonwaikerie.sa.gov.au/eservice/daEnquiryInit.do?nodeNum=2811",
+      period: :lastmonth
+    },
+    orange: {
+      url: "https://ecouncil.orange.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=24",
+      period: :last30days
+    },
+    gawler: {
+      url: "https://eservices.gawler.sa.gov.au/eservice/daEnquiryInit.do?doc_typ=4&nodeNum=3228",
+      period: :lastmonth,
+      # Has an incomplete SSL chain: See
+      # https://www.ssllabs.com/ssltest/analyze.html?d=eservices.gawler.sa.gov.au
+      disable_ssl_certificate_check: true
+    }
   }.freeze
 
   def self.scrape_and_save(authority)
-    if authority == :burwood
-      CivicaScraper.scrape_and_save_period(
-        url: "https://ecouncil.burwood.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=219",
-        period: :last7days
-      )
-    elsif authority == :wollondilly
-      CivicaScraper.scrape_and_save_period(
-        url: "https://ecouncil.wollondilly.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=40801",
-        period: :last7days
-      )
-    elsif authority == :woollahra
+    if authority == :woollahra
       Authority::Woollahra.scrape_and_save
-    elsif authority == :nambucca
-      CivicaScraper.scrape_and_save_period(
-        url:
-          "https://eservices.nambucca.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=2811",
-        period: :last10days
-      )
-    elsif authority == :cairns
-      CivicaScraper.scrape_and_save_period(
-        url: "https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227",
-        period: :last30days
-      )
-    elsif authority == :mount_gambier
-      CivicaScraper.scrape_and_save_period(
-        url: "https://ecouncil.mountgambier.sa.gov.au/eservice/daEnquiryInit.do?nodeNum=21461",
-        period: :last2months
-      )
-    elsif authority == :norwood
-      CivicaScraper.scrape_and_save_period(
-        url: "https://ecouncil.npsp.sa.gov.au/eservice/daEnquiryInit.do?doc_typ=155&nodeNum=10209",
-        period: :lastmonth
-      )
-    elsif authority == :tea_tree_gully
-      CivicaScraper.scrape_and_save_period(
-        url: "https://www.ecouncil.teatreegully.sa.gov.au/eservice/daEnquiryInit.do?nodeNum=131612",
-        period: :lastmonth
-      )
-    elsif authority == :loxton_waikerie
-      CivicaScraper.scrape_and_save_period(
-        url: "https://eservices.loxtonwaikerie.sa.gov.au/eservice/daEnquiryInit.do?nodeNum=2811",
-        period: :lastmonth
-      )
-    elsif authority == :orange
-      CivicaScraper.scrape_and_save_period(
-        url: "https://ecouncil.orange.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=24",
-        period: :last30days
-      )
-    elsif authority == :gawler
-      # Has an incomplete SSL chain: See
-      # https://www.ssllabs.com/ssltest/analyze.html?d=eservices.gawler.sa.gov.au
-      CivicaScraper.scrape_and_save_period(
-        url: "https://eservices.gawler.sa.gov.au/eservice/daEnquiryInit.do?doc_typ=4&nodeNum=3228",
-        period: :lastmonth,
-        disable_ssl_certificate_check: true
-      )
+    elsif AUTHORITIES.key?(authority)
+      scrape_and_save_period(AUTHORITIES[authority])
     else
       raise "Unknown authority: #{authority}"
     end
@@ -111,7 +93,7 @@ module CivicaScraper
     page = Page::Search.period(page, date_from, date_to)
 
     Page::Index.scrape(page) do |record|
-      CivicaScraper.save(
+      save(
         "council_reference" => record[:council_reference],
         "address" => record[:address],
         "description" => record[:description],
