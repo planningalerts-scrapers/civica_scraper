@@ -21,7 +21,8 @@ module CivicaScraper
     norwood: {},
     tea_tree_gully: {},
     loxton_waikerie: {},
-    orange: {}
+    orange: {},
+    gawler: {}
   }.freeze
 
   def self.scrape_and_save(authority)
@@ -84,13 +85,25 @@ module CivicaScraper
         Date.today - 30,
         Date.today
       )
+    elsif authority == :gawler
+      # Has an incomplete SSL chain: See
+      # https://www.ssllabs.com/ssltest/analyze.html?d=eservices.gawler.sa.gov.au
+      CivicaScraper.scrape_and_save_period(
+        "https://eservices.gawler.sa.gov.au/eservice/daEnquiryInit.do?doc_typ=4&nodeNum=3228",
+        Date.today << 1,
+        Date.today,
+        disable_ssl_certificate_check: true
+      )
     else
       raise "Unknown authority: #{authority}"
     end
   end
 
-  def self.scrape_and_save_period(base_url, date_from, date_to)
+  def self.scrape_and_save_period(
+    base_url, date_from, date_to, disable_ssl_certificate_check: false
+  )
     agent = Mechanize.new
+    agent.verify_mode = OpenSSL::SSL::VERIFY_NONE if disable_ssl_certificate_check
     page = agent.get(base_url)
     page = Page::Search.period(page, date_from, date_to)
 
