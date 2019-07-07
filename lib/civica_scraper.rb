@@ -20,7 +20,8 @@ module CivicaScraper
     mount_gambier: {},
     norwood: {},
     tea_tree_gully: {},
-    loxton_waikerie: {}
+    loxton_waikerie: {},
+    orange: {}
   }.freeze
 
   def self.scrape_and_save(authority)
@@ -75,6 +76,12 @@ module CivicaScraper
       CivicaScraper.scrape_and_save_period(
         "https://eservices.loxtonwaikerie.sa.gov.au/eservice/daEnquiryInit.do?nodeNum=2811",
         Date.today << 1,
+        Date.today
+      )
+    elsif authority == :orange
+      CivicaScraper.scrape_and_save_period(
+        "https://ecouncil.orange.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=24",
+        Date.today - 30,
         Date.today
       )
     else
