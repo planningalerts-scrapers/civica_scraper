@@ -19,7 +19,8 @@ module CivicaScraper
     cairns: {},
     mount_gambier: {},
     norwood: {},
-    tea_tree_gully: {}
+    tea_tree_gully: {},
+    loxton_waikerie: {}
   }.freeze
 
   def self.scrape_and_save(authority)
@@ -67,6 +68,12 @@ module CivicaScraper
     elsif authority == :tea_tree_gully
       CivicaScraper.scrape_and_save_period(
         "https://www.ecouncil.teatreegully.sa.gov.au/eservice/daEnquiryInit.do?nodeNum=131612",
+        Date.today << 1,
+        Date.today
+      )
+    elsif authority == :loxton_waikerie
+      CivicaScraper.scrape_and_save_period(
+        "https://eservices.loxtonwaikerie.sa.gov.au/eservice/daEnquiryInit.do?nodeNum=2811",
         Date.today << 1,
         Date.today
       )
