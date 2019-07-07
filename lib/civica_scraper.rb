@@ -27,57 +27,57 @@ module CivicaScraper
 
   def self.scrape_and_save(authority)
     if authority == :burwood
-      CivicaScraper.scrape_and_save_period2(
+      CivicaScraper.scrape_and_save_period(
         url: "https://ecouncil.burwood.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=219",
         period: :last7days
       )
     elsif authority == :wollondilly
-      CivicaScraper.scrape_and_save_period2(
+      CivicaScraper.scrape_and_save_period(
         url: "https://ecouncil.wollondilly.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=40801",
         period: :last7days
       )
     elsif authority == :woollahra
       Authority::Woollahra.scrape_and_save
     elsif authority == :nambucca
-      CivicaScraper.scrape_and_save_period2(
+      CivicaScraper.scrape_and_save_period(
         url:
           "https://eservices.nambucca.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=2811",
         period: :last10days
       )
     elsif authority == :cairns
-      CivicaScraper.scrape_and_save_period2(
+      CivicaScraper.scrape_and_save_period(
         url: "https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227",
         period: :last30days
       )
     elsif authority == :mount_gambier
-      CivicaScraper.scrape_and_save_period2(
+      CivicaScraper.scrape_and_save_period(
         url: "https://ecouncil.mountgambier.sa.gov.au/eservice/daEnquiryInit.do?nodeNum=21461",
         period: :last2months
       )
     elsif authority == :norwood
-      CivicaScraper.scrape_and_save_period2(
+      CivicaScraper.scrape_and_save_period(
         url: "https://ecouncil.npsp.sa.gov.au/eservice/daEnquiryInit.do?doc_typ=155&nodeNum=10209",
         period: :lastmonth
       )
     elsif authority == :tea_tree_gully
-      CivicaScraper.scrape_and_save_period2(
+      CivicaScraper.scrape_and_save_period(
         url: "https://www.ecouncil.teatreegully.sa.gov.au/eservice/daEnquiryInit.do?nodeNum=131612",
         period: :lastmonth
       )
     elsif authority == :loxton_waikerie
-      CivicaScraper.scrape_and_save_period2(
+      CivicaScraper.scrape_and_save_period(
         url: "https://eservices.loxtonwaikerie.sa.gov.au/eservice/daEnquiryInit.do?nodeNum=2811",
         period: :lastmonth
       )
     elsif authority == :orange
-      CivicaScraper.scrape_and_save_period2(
+      CivicaScraper.scrape_and_save_period(
         url: "https://ecouncil.orange.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=24",
         period: :last30days
       )
     elsif authority == :gawler
       # Has an incomplete SSL chain: See
       # https://www.ssllabs.com/ssltest/analyze.html?d=eservices.gawler.sa.gov.au
-      CivicaScraper.scrape_and_save_period2(
+      CivicaScraper.scrape_and_save_period(
         url: "https://eservices.gawler.sa.gov.au/eservice/daEnquiryInit.do?doc_typ=4&nodeNum=3228",
         period: :lastmonth,
         disable_ssl_certificate_check: true
@@ -87,7 +87,7 @@ module CivicaScraper
     end
   end
 
-  def self.scrape_and_save_period2(
+  def self.scrape_and_save_period(
     url:, period:, disable_ssl_certificate_check: false
   )
     date_from = if period == :lastmonth
@@ -103,21 +103,11 @@ module CivicaScraper
                 else
                   raise "Unexpected period: #{period}"
                 end
+    date_to = Date.today
 
-    scrape_and_save_period(
-      url,
-      date_from,
-      Date.today,
-      disable_ssl_certificate_check: disable_ssl_certificate_check
-    )
-  end
-
-  def self.scrape_and_save_period(
-    base_url, date_from, date_to, disable_ssl_certificate_check: false
-  )
     agent = Mechanize.new
     agent.verify_mode = OpenSSL::SSL::VERIFY_NONE if disable_ssl_certificate_check
-    page = agent.get(base_url)
+    page = agent.get(url)
     page = Page::Search.period(page, date_from, date_to)
 
     Page::Index.scrape(page) do |record|
@@ -127,7 +117,7 @@ module CivicaScraper
         "description" => record[:description],
         # We can't give a link directly to an application.
         # Bummer. So, giving link to the search page
-        "info_url" => base_url,
+        "info_url" => url,
         "date_received" => record[:date_received],
         "date_scraped" => Date.today.to_s
       )
