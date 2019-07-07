@@ -27,76 +27,89 @@ module CivicaScraper
 
   def self.scrape_and_save(authority)
     if authority == :burwood
-      CivicaScraper.scrape_and_save_period(
-        # TODO: Get this weird url (with a nodeNum whatever that is) by following
-        # a link from a more consistent url
-        "https://ecouncil.burwood.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=219",
-        Date.today - 7,
-        Date.today
+      CivicaScraper.scrape_and_save_period2(
+        url: "https://ecouncil.burwood.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=219",
+        period: :last7days
       )
     elsif authority == :wollondilly
-      CivicaScraper.scrape_and_save_period(
-        "https://ecouncil.wollondilly.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=40801",
-        Date.today - 7,
-        Date.today
+      CivicaScraper.scrape_and_save_period2(
+        url: "https://ecouncil.wollondilly.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=40801",
+        period: :last7days
       )
     elsif authority == :woollahra
       Authority::Woollahra.scrape_and_save
     elsif authority == :nambucca
-      CivicaScraper.scrape_and_save_period(
-        "https://eservices.nambucca.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=2811",
-        Date.today - 10,
-        Date.today
+      CivicaScraper.scrape_and_save_period2(
+        url:
+          "https://eservices.nambucca.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=2811",
+        period: :last10days
       )
     elsif authority == :cairns
-      CivicaScraper.scrape_and_save_period(
-        "https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227",
-        Date.today - 30,
-        Date.today
+      CivicaScraper.scrape_and_save_period2(
+        url: "https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227",
+        period: :last30days
       )
     elsif authority == :mount_gambier
-      # Scrapes last two months
-      CivicaScraper.scrape_and_save_period(
-        "https://ecouncil.mountgambier.sa.gov.au/eservice/daEnquiryInit.do?nodeNum=21461",
-        Date.today << 2,
-        Date.today
+      CivicaScraper.scrape_and_save_period2(
+        url: "https://ecouncil.mountgambier.sa.gov.au/eservice/daEnquiryInit.do?nodeNum=21461",
+        period: :last2months
       )
     elsif authority == :norwood
-      CivicaScraper.scrape_and_save_period(
-        "https://ecouncil.npsp.sa.gov.au/eservice/daEnquiryInit.do?doc_typ=155&nodeNum=10209",
-        Date.today << 1,
-        Date.today
+      CivicaScraper.scrape_and_save_period2(
+        url: "https://ecouncil.npsp.sa.gov.au/eservice/daEnquiryInit.do?doc_typ=155&nodeNum=10209",
+        period: :lastmonth
       )
     elsif authority == :tea_tree_gully
-      CivicaScraper.scrape_and_save_period(
-        "https://www.ecouncil.teatreegully.sa.gov.au/eservice/daEnquiryInit.do?nodeNum=131612",
-        Date.today << 1,
-        Date.today
+      CivicaScraper.scrape_and_save_period2(
+        url: "https://www.ecouncil.teatreegully.sa.gov.au/eservice/daEnquiryInit.do?nodeNum=131612",
+        period: :lastmonth
       )
     elsif authority == :loxton_waikerie
-      CivicaScraper.scrape_and_save_period(
-        "https://eservices.loxtonwaikerie.sa.gov.au/eservice/daEnquiryInit.do?nodeNum=2811",
-        Date.today << 1,
-        Date.today
+      CivicaScraper.scrape_and_save_period2(
+        url: "https://eservices.loxtonwaikerie.sa.gov.au/eservice/daEnquiryInit.do?nodeNum=2811",
+        period: :lastmonth
       )
     elsif authority == :orange
-      CivicaScraper.scrape_and_save_period(
-        "https://ecouncil.orange.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=24",
-        Date.today - 30,
-        Date.today
+      CivicaScraper.scrape_and_save_period2(
+        url: "https://ecouncil.orange.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=24",
+        period: :last30days
       )
     elsif authority == :gawler
       # Has an incomplete SSL chain: See
       # https://www.ssllabs.com/ssltest/analyze.html?d=eservices.gawler.sa.gov.au
-      CivicaScraper.scrape_and_save_period(
-        "https://eservices.gawler.sa.gov.au/eservice/daEnquiryInit.do?doc_typ=4&nodeNum=3228",
-        Date.today << 1,
-        Date.today,
+      CivicaScraper.scrape_and_save_period2(
+        url: "https://eservices.gawler.sa.gov.au/eservice/daEnquiryInit.do?doc_typ=4&nodeNum=3228",
+        period: :lastmonth,
         disable_ssl_certificate_check: true
       )
     else
       raise "Unknown authority: #{authority}"
     end
+  end
+
+  def self.scrape_and_save_period2(
+    url:, period:, disable_ssl_certificate_check: false
+  )
+    date_from = if period == :lastmonth
+                  Date.today << 1
+                elsif period == :last2months
+                  Date.today << 2
+                elsif period == :last7days
+                  Date.today - 7
+                elsif period == :last10days
+                  Date.today - 10
+                elsif period == :last30days
+                  Date.today - 30
+                else
+                  raise "Unexpected period: #{period}"
+                end
+
+    scrape_and_save_period(
+      url,
+      date_from,
+      Date.today,
+      disable_ssl_certificate_check: disable_ssl_certificate_check
+    )
   end
 
   def self.scrape_and_save_period(
