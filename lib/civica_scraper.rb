@@ -84,8 +84,12 @@ module CivicaScraper
     end
   end
 
-  def self.save(record)
+  def self.log(record)
     puts "Saving record " + record["council_reference"] + ", " + record["address"]
+  end
+
+  def self.save(record)
+    log(record)
     ScraperWiki.save_sqlite(["council_reference"], record)
   end
 end
