@@ -73,7 +73,11 @@ module CivicaScraper
           record_detail = Page::Detail.scrape(page)
 
           CivicaScraper.save(
-            "address" => record_detail[:address],
+            # The address on the detail page for woollahra for some applications
+            # (e.g. 166/2019) is messed up. It looks like it's a combination of
+            # a couple of addresses. So, using the address from the index page
+            # instead
+            "address" => record[:address],
             "description" => record_detail[:description],
             "council_reference" => record_detail[:council_reference],
             # We can't give a link directly to an application.
