@@ -12,10 +12,16 @@ require "mechanize"
 # Scrape civica websites
 module CivicaScraper
   def self.scrape_and_save(authority)
+    scrape(authority) do |record|
+      save(record)
+    end
+  end
+
+  def self.scrape(authority)
     raise "Unknown authority: #{authority}" unless AUTHORITIES.key?(authority)
 
     scrape_period(AUTHORITIES[authority]) do |record|
-      save(record)
+      yield(record)
     end
   end
 
