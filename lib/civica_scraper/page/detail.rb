@@ -22,18 +22,26 @@ module CivicaScraper
 
       def self.extract_notification_period(doc)
         table = doc.at("table[summary='Tasks Associated this Development Application']")
-        table_row = table.search("tr").find do |tr|
+        table_rows = table.search("tr").select do |tr|
           tr.search("td")[1]&.inner_text == "Notification to Neighbours"
         end
 
-        if table_row
-          on_notice_from = table_row.search("td")[2].inner_text
-          on_notice_to = table_row.search("td")[3].inner_text
+        notice_periods = table_rows.map do |table_row|
+          {
+            from: table_row.search("td")[2].inner_text,
+            to: table_row.search("td")[3].inner_text
+          }
         end
-        {
-          from: on_notice_from,
-          to: on_notice_to
-        }
+
+        # For the time being return the last
+        if notice_periods.empty?
+          {
+            from: nil, to: nil
+          }
+        else
+          # Returns the most recent notice period
+          notice_periods.max_by { |p| p[:from] }
+        end
       end
     end
   end
