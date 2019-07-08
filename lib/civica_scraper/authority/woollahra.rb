@@ -37,8 +37,8 @@ module CivicaScraper
       end
 
       def self.scrape_and_save
-        scrape_and_save_v1
-        #scrape_and_save_v2
+        # scrape_and_save_v1
+        scrape_and_save_v2
       end
 
       def self.scrape_and_save_v1

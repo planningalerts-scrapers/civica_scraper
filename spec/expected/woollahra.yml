@@ -1,212 +1,265 @@
 ---
-- address: 56 Hargrave Street, PADDINGTON, NSW
-  description: Section 4.55
+- address: 56 Hargrave Street PADDINGTON NSW 2021
+  description: Section 4.55 Delete approved garage and replace with new carport structure
   council_reference: 1064/2003
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-06-20'
   on_notice_from: '2019-07-03'
   on_notice_to: '2019-07-17'
-- address: 21 Davies Avenue, VAUCLUSE, NSW
-  description: 'Dwelling House:'
+- address: 21 Davies Avenue VAUCLUSE NSW 2030
+  description: 'Dwelling House: Alterations and additions, a new swimming pool and
+    associated landscaping and site works'
   council_reference: 14/2019
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-01-22'
   on_notice_from: '2019-06-28'
   on_notice_to: '2019-07-09'
-- address: 2C Tarrant Avenue, BELLEVUE HILL, NSW
-  description: Dwelling House
+- address: 2C Tarrant Avenue BELLEVUE HILL NSW 2023
+  description: Dwelling House Attached dual occupancy
   council_reference: 166/2019
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-05-14'
   on_notice_from: '2019-06-26'
   on_notice_to: '2019-07-10'
-- address: Lyne Park Access Road, ROSE BAY, NSW
-  description: 'Restaurant/Cafe:'
+- address: Lyne Park Access Road ROSE BAY NSW 2029
+  description: 'Restaurant/Cafe: Alterations and additions to existing restaurant'
   council_reference: 193/2019
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-05-31'
   on_notice_from: '2019-06-19'
   on_notice_to: '2019-07-18'
-- address: 6 Olive Street, PADDINGTON, NSW
-  description: Dwelling House
+- address: 6 Olive Street PADDINGTON NSW 2021
+  description: Dwelling House Alterations & additions to existing dwelling
   council_reference: 198/2019
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-06-04'
   on_notice_from: '2019-06-26'
   on_notice_to: '2019-07-10'
-- address: 32 Wentworth Road, VAUCLUSE, NSW
-  description: Dwelling House
+- address: 32 Wentworth Road VAUCLUSE NSW 2030
+  description: Dwelling House Demolition of all existing structures and the construction
+    of a new two part three storey dwelling with double garage, swimming pool and
+    associated landscaping including the removal of 6 trees
   council_reference: 207/2019
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-06-11'
   on_notice_from: '2019-06-26'
   on_notice_to: '2019-07-10'
-- address: 5 Thornton Street, DARLING POINT, NSW
-  description: Ancillary Structure/Landscaping
+- address: 5-11 Thornton Street DARLING POINT NSW 2027
+  description: Ancillary Structure/Landscaping Addition of a new ancillary pergola
+    (cabana) structure
   council_reference: 211/2019
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-06-13'
   on_notice_from: '2019-06-26'
   on_notice_to: '2019-07-10'
-- address: 1 Ashgate Avenue, 6A Hillside Avenue, VAUCLUSE, NSW
-  description: Dwelling House
+- address: 1 Ashgate Avenue VAUCLUSE NSW 2030
+  description: Dwelling House Amalgamation of two allotments into one (6a Hillside
+    Ave and 1 Ashgate Ave), alterations and additions to the existing building at
+    6a Hillside Ave & a new pool side structure (pavilion space), a new swimming pool,
+    associated landscaping, boundary fencing and siteworks
   council_reference: 212/2019
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-06-14'
   on_notice_from: '2019-06-26'
   on_notice_to: '2019-07-10'
-- address: Unit 1 42 Manning Road, DOUBLE BAY, NSW
-  description: Dwelling House
+- address: Unit 1 42 Manning Road DOUBLE BAY NSW 2028
+  description: Dwelling House New hardstand parking and crossover
   council_reference: 217/2019
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-06-18'
   on_notice_from: '2019-07-03'
   on_notice_to: '2019-07-10'
-- address: 167 Edgecliff Road, WOOLLAHRA, NSW
-  description: Section 4.55
+- address: 167 Edgecliff Road WOOLLAHRA NSW 2025
+  description: Section 4.55 Increase the depths of balconies on north facade to both
+    ground & first floor by 540mm
   council_reference: 218/2017
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-06-21'
   on_notice_from: '2019-07-03'
   on_notice_to: '2019-07-10'
-- address: 46 Edgecliff Road, WOOLLAHRA, NSW
-  description: Dwelling House
+- address: 46 Edgecliff Road WOOLLAHRA NSW 2025
+  description: Dwelling House Alterations and additions to the existing dwelling including
+    a new pool and a new rear garage with loft above
   council_reference: 219/2019
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-06-20'
   on_notice_from: '2019-07-03'
   on_notice_to: '2019-07-17'
-- address: 120 Underwood Street, PADDINGTON, NSW
-  description: Dwelling House
+- address: 120 Underwood Street PADDINGTON NSW 2021
+  description: Dwelling House Alterations and additions to the existing terrace house
   council_reference: 22/2019
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-01-29'
   on_notice_from: '2019-06-26'
   on_notice_to: '2019-07-10'
-- address: Unit 9A 21 Thornton Street, 21 Thornton Street, DARLING POINT, NSW
-  description: 'Alts and Adds to Residential Flat Bldg:'
+- address: Unit 9A 21 Thornton Street DARLING POINT NSW 2027
+  description: 'Alts and Adds to Residential Flat Bldg: Alteration to residential
+    flat building'
   council_reference: 220/2019
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-06-20'
   on_notice_from: '2019-07-03'
   on_notice_to: '2019-07-09'
-- address: 13 Hopewell Street, PADDINGTON, NSW
-  description: Dwelling House
+- address: 13 Hopewell Street PADDINGTON NSW 2021
+  description: Dwelling House Alterations & additions to the existing terrace including
+    modification of the front facade
   council_reference: 221/2019
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-06-20'
   on_notice_from: '2019-07-03'
   on_notice_to: '2019-07-17'
-- address: 238 Oxford Street, PADDINGTON, NSW
-  description: Recreation Facility
+- address: 238 Oxford Street PADDINGTON NSW 2021
+  description: Recreation Facility Change of use from retail to fitness gym, internal
+    fitout & signage
   council_reference: 222/2019
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-06-21'
   on_notice_from: '2019-07-03'
   on_notice_to: '2019-07-17'
-- address: 38 Glendon Road, DOUBLE BAY, NSW
-  description: Detached Garage/Carport/Shed
+- address: 38 Glendon Road DOUBLE BAY NSW 2028
+  description: Detached Garage/Carport/Shed Demolition of the existing rear garage
+    and the construction of a new garage with loft above
   council_reference: 223/2019
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-06-24'
   on_notice_from: '2019-07-03'
   on_notice_to: '2019-07-10'
-- address: Unit 2 17 Benelong Crescent, BELLEVUE HILL, NSW
-  description: 'Residential Flat Building:'
+- address: Unit 2 17-19 Benelong Crescent BELLEVUE HILL NSW 2023
+  description: 'Residential Flat Building: Alterations and additions to existing residential
+    flat building'
   council_reference: 225/2019
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-06-24'
   on_notice_from: '2019-07-03'
   on_notice_to: '2019-07-09'
-- address: 46 Bellevue Road, 46A Bellevue Road, BELLEVUE HILL, NSW
-  description: Section 4.55
+- address: 46 Bellevue Road BELLEVUE HILL NSW 2023
+  description: Section 4.55 Alteration to create secure garage entry & relocation
+    of condenser units to rear of building
   council_reference: 235/2016
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-06-20'
   on_notice_from: '2019-07-03'
   on_notice_to: '2019-07-10'
-- address: 147 Darling Point Road, DARLING POINT, NSW
-  description: 'Section 4.55:'
+- address: 147 Darling Point Road DARLING POINT NSW 2027
+  description: 'Section 4.55: Modifications to approved alterations and additions'
   council_reference: 272/2015
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-06-19'
   on_notice_from: '2019-07-03'
   on_notice_to: '2019-07-09'
-- address: 44 Derby Street, VAUCLUSE, NSW
-  description: Section 4.55
+- address: 44 Derby Street VAUCLUSE NSW 2030
+  description: Section 4.55 Modifications to the approved scheme
   council_reference: 335/2016
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-06-11'
   on_notice_from: '2019-06-26'
   on_notice_to: '2019-07-10'
-- address: 29B New South Head Road, VAUCLUSE, NSW
-  description: 'Section 4.55:'
+- address: 29B New South Head Road VAUCLUSE NSW 2030
+  description: 'Section 4.55: Modifications to approved dwelling including relocation
+    of garage to basement'
   council_reference: 401/2017
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-06-03'
   on_notice_from: '2019-06-19'
   on_notice_to: '2019-07-18'
-- address: 49 New Beach Road, DARLING POINT, NSW
-  description: Dwelling House
+- address: 49 New Beach Road DARLING POINT NSW 2027
+  description: Dwelling House Change window location in attic space
   council_reference: 465/2017
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-06-21'
   on_notice_from: '2019-07-03'
   on_notice_to: '2019-07-17'
-- address: 71 Wallaroy Road, 71 Wallaroy Road, WOOLLAHRA, NSW
-  description: Section 4.55
+- address: 71 Wallaroy Road WOOLLAHRA NSW 2025
+  description: Section 4.55 Change of roof form and addition of a skylight
   council_reference: 473/2018
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-06-12'
   on_notice_from: '2019-06-26'
   on_notice_to: '2019-07-10'
-- address: 33 Newcastle Street, 31 Newcastle Street, ROSE BAY, NSW
-  description: 'Section 4.55:'
+- address: 33-35 Newcastle Street ROSE BAY NSW 2029
+  description: 'Section 4.55: Modifications to approved residential flat building'
   council_reference: 5/2018
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-06-24'
   on_notice_from: '2019-07-03'
   on_notice_to: '2019-07-09'
-- address: 18 Guilfoyle Avenue, 16 Guilfoyle Avenue, DOUBLE BAY, NSW
-  description: Dwelling House
+- address: 18 Guilfoyle Avenue DOUBLE BAY NSW 2028
+  description: Dwelling House Demolition of two existing semi-detached cottages at
+    16 & 18 Guilfoyle Avenue and the construction of a new townhouse (predominantly
+    three stories) for each allotment with car parking at the front of the site, new
+    fences, landscaping and siteworks and de-watering
   council_reference: 50/2019
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-02-22'
   on_notice_from: '2019-07-03'
   on_notice_to: '2019-07-17'
-- address: 4 Duxford Street, PADDINGTON, NSW
-  description: Section 4.55
+- address: 4 Duxford Street PADDINGTON NSW 2021
+  description: Section 4.55 Modification to approved scheme - addressing Condition
+    C.1 (a), (b) & (c)
   council_reference: 531/2018
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-06-18'
   on_notice_from: '2019-07-03'
   on_notice_to: '2019-07-17'
-- address: 47 Cambridge Street, PADDINGTON, NSW
-  description: Section 4.55
+- address: 47 Cambridge Street PADDINGTON NSW 2021
+  description: Section 4.55 Modifications to the approved scheme
   council_reference: 536/2016
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-06-07'
   on_notice_from: '2019-06-26'
   on_notice_to: '2019-07-10'
-- address: 36 Fitzwilliam Road, VAUCLUSE, NSW
-  description: 'Section 4.55:'
+- address: 36 Fitzwilliam Road VAUCLUSE NSW 2030
+  description: 'Section 4.55: Modifications to approved swimming pool, landscaping
+    and external works'
   council_reference: 55/2018
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-06-05'
   on_notice_from: '2019-07-03'
   on_notice_to: '2019-07-09'
-- address: 37 Glenview Street, PADDINGTON, NSW
-  description: Section 4.55
+- address: 37 Glenview Street PADDINGTON NSW 2021
+  description: Section 4.55 Remove approved window to east elevation and relocate
+    from upper to ground floor level on same east elevation and lower floor of dining
+    room
   council_reference: 601/2017
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-06-11'
   on_notice_from: '2019-06-26'
   on_notice_to: '2019-07-10'
-- address: 122 Bellevue Road, 124 Bellevue Road, 122 Bellevue Road, BELLEVUE HILL,
-    NSW
-  description: Section 4.55
+- address: 122 Bellevue Road BELLEVUE HILL NSW 2023
+  description: Section 4.55 Internal amendments to units and addition of a new roof
+    terrace
   council_reference: 72/2018
   info_url: https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270
   date_scraped: '2019-05-15'
+  date_received: '2019-06-21'
   on_notice_from: '2019-07-03'
   on_notice_to: '2019-07-17'
