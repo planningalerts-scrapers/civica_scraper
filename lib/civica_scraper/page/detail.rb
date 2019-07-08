@@ -22,17 +22,55 @@ module CivicaScraper
 
       def self.extract_notification_period(doc)
         table = doc.at("table[summary='Tasks Associated this Development Application']")
-        table_rows = table.search("tr").select do |tr|
-          tr.search("td")[1]&.inner_text == "Notification to Neighbours" ||
-            tr.search("td")[1]&.inner_text == "Advert-Went/Courier 30 Days"
+
+        events = []
+        table.search("tr").each do |tr|
+          values = tr.search("td").map(&:inner_text)
+          stage_description = values[1]
+          opened = values[2]
+          completed_date = values[4]
+          case stage_description
+          when "Notification to Neighbours",
+               "Advert-Went/Courier 30 Days"
+            events << {
+              type: :notification,
+              from: Date.strptime(opened, "%d/%m/%Y"),
+              to: Date.strptime(completed_date, "%d/%m/%Y")
+            }
+          when nil
+            events << { type: :ignored }
+          when "Applic Information Checked",
+               "Plans Published on the WMC web",
+               "Further Information Requested",
+               "Stat Dec- Site Sign Received",
+               "Replacement Application No. 1",
+               "Adv Completed Objections Rec",
+               "Advertised - Wentworth Courier",
+               "Referred - Dev Assess Engineer",
+               "Referred - Health Inspector",
+               "Referred - Fire Safety Officer",
+               "Referred - Heritage Officer",
+               "Referred - Trees & Landscape",
+               "Referred - Drainage Engineer",
+               "Referred  -Sydney Water",
+               "Referred - Traffic Engineer",
+               "Referred - Parks Manager",
+               "Referred - Property Manager",
+               "Referred - Building/Compliance",
+               "Referred - NSW Fisheries (Int)",
+               "Referred - Sydney Ferries",
+               "Referred - NSW RMS (Con)",
+               "Referred - NSW RMS (Int)",
+               "Ref - SREP(Syd Harbour Cat) 05",
+               "No Referrals Required"
+
+            events << { type: :ignored }
+          else
+            raise "Unknown stage_description: #{stage_description}"
+          end
         end
 
-        notice_periods = table_rows.map do |table_row|
-          {
-            from: Date.strptime(table_row.search("td")[2].inner_text, "%d/%m/%Y"),
-            to: Date.strptime(table_row.search("td")[4].inner_text, "%d/%m/%Y")
-          }
-        end
+        notice_periods = events.select { |e| e[:type] == :notification }
 
         return {} if notice_periods.empty?
 
