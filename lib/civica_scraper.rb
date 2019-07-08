@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require "civica_scraper/authority/woollahra"
 require "civica_scraper/page/detail"
 require "civica_scraper/page/index"
 require "civica_scraper/page/search"
@@ -13,13 +12,9 @@ require "mechanize"
 # Scrape civica websites
 module CivicaScraper
   def self.scrape_and_save(authority)
-    if authority == :woollahra
-      Authority::Woollahra.scrape_and_save
-    elsif AUTHORITIES.key?(authority)
-      scrape_and_save_period(AUTHORITIES[authority])
-    else
-      raise "Unknown authority: #{authority}"
-    end
+    raise "Unknown authority: #{authority}" unless AUTHORITIES.key?(authority)
+
+    scrape_and_save_period(AUTHORITIES[authority])
   end
 
   def self.scrape_and_save_period(

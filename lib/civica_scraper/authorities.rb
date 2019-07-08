@@ -10,7 +10,10 @@ module CivicaScraper
       url: "https://ecouncil.wollondilly.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=40801",
       period: :last7days
     },
-    woollahra: {},
+    woollahra: {
+      url: "https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270",
+      period: :advertised
+    },
     nambucca: {
       url:
         "https://eservices.nambucca.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=2811",
