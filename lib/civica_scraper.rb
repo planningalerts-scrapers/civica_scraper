@@ -18,7 +18,8 @@ module CivicaScraper
   end
 
   def self.scrape_and_save_period(
-    url:, period:, disable_ssl_certificate_check: false
+    url:, period:, disable_ssl_certificate_check: false,
+    notice_period: false
   )
     agent = Mechanize.new
     agent.verify_mode = OpenSSL::SSL::VERIFY_NONE if disable_ssl_certificate_check
@@ -60,7 +61,7 @@ module CivicaScraper
         "date_scraped" => Date.today.to_s
       }
 
-      if period == :advertised
+      if notice_period
         # Now scrape the detail page so that we can get the notice information
         page = agent.get(record[:url])
         record_detail = Page::Detail.scrape(page)

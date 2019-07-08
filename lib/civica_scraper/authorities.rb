@@ -12,7 +12,8 @@ module CivicaScraper
     },
     woollahra: {
       url: "https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270",
-      period: :advertised
+      period: :advertised,
+      notice_period: true
     },
     nambucca: {
       url:
