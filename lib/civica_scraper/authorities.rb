@@ -2,6 +2,10 @@
 
 module CivicaScraper
   AUTHORITIES = {
+    bayside: {
+      url: "https://ecouncil.bayside.vic.gov.au/eservice/daEnquiryInit.do?nodeNum=480390",
+      period: :last30days
+    },
     burwood: {
       url: "https://ecouncil.burwood.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=219",
       period: :last7days
