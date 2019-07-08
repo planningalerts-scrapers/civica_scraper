@@ -14,19 +14,7 @@ module CivicaScraper
   def self.scrape_and_save(authority)
     raise "Unknown authority: #{authority}" unless AUTHORITIES.key?(authority)
 
-    scrape_and_save_period(AUTHORITIES[authority])
-  end
-
-  def self.scrape_and_save_period(
-    url:, period:, disable_ssl_certificate_check: false,
-    notice_period: false
-  )
-    scrape_period(
-      url: url,
-      period: period,
-      disable_ssl_certificate_check: disable_ssl_certificate_check,
-      notice_period: notice_period
-    ) do |record|
+    scrape_period(AUTHORITIES[authority]) do |record|
       save(record)
     end
   end
