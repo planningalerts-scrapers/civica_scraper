@@ -21,7 +21,10 @@ module CivicaScraper
             }
             on_notice_text = block.search('tr')[4].search('td')[2].inner_text.strip
             if on_notice_text =~ /(\d+\/\d+\/\d+)\s+Expires\s+(\d+\/\d+\/\d+)/
-              record["on_notice_from"], record["on_notice_to"] = $~[1..2]
+              on_notice_from = $1
+              on_notice_to = $2
+              record["on_notice_from"] = Date.strptime(on_notice_from, "%d/%m/%Y").to_s
+              record["on_notice_to"] = Date.strptime(on_notice_to, "%d/%m/%Y").to_s
             else
               raise "Unexpected form for text: #{on_notice_text}"
             end
