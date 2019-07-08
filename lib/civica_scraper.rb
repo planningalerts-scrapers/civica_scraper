@@ -25,29 +25,37 @@ module CivicaScraper
   def self.scrape_and_save_period(
     url:, period:, disable_ssl_certificate_check: false
   )
-    date_from = if period == :lastmonth
-                  Date.today << 1
-                elsif period == :last2months
-                  Date.today << 2
-                elsif period == :last7days
-                  Date.today - 7
-                elsif period == :last10days
-                  Date.today - 10
-                elsif period == :last30days
-                  Date.today - 30
-                else
-                  raise "Unexpected period: #{period}"
-                end
-    date_to = Date.today
-
     agent = Mechanize.new
     agent.verify_mode = OpenSSL::SSL::VERIFY_NONE if disable_ssl_certificate_check
     page = agent.get(url)
-    page = Page::Search.period(page, date_from, date_to)
+
+    if period == :advertised
+      page = Page::Search.advertised(page)
+    else
+      date_from = if period == :lastmonth
+                    Date.today << 1
+                  elsif period == :last2months
+                    Date.today << 2
+                  elsif period == :last7days
+                    Date.today - 7
+                  elsif period == :last10days
+                    Date.today - 10
+                  elsif period == :last30days
+                    Date.today - 30
+                  else
+                    raise "Unexpected period: #{period}"
+                  end
+      date_to = Date.today
+      page = Page::Search.period(page, date_from, date_to)
+    end
 
     Page::Index.scrape(page) do |record|
-      save(
+      merged = {
         "council_reference" => record[:council_reference],
+        # The address on the detail page for woollahra for some applications
+        # (e.g. 166/2019) is messed up. It looks like it's a combination of
+        # a couple of addresses. So, using the address from the index page
+        # instead
         "address" => record[:address],
         "description" => record[:description],
         # We can't give a link directly to an application.
@@ -55,7 +63,20 @@ module CivicaScraper
         "info_url" => url,
         "date_received" => record[:date_received],
         "date_scraped" => Date.today.to_s
-      )
+      }
+
+      if period == :advertised
+        # Now scrape the detail page so that we can get the notice information
+        page = agent.get(record[:url])
+        record_detail = Page::Detail.scrape(page)
+
+        merged = merged.merge(
+          "on_notice_from" => record_detail[:on_notice_from],
+          "on_notice_to" => record_detail[:on_notice_to]
+        )
+      end
+
+      save(merged)
     end
   end
 
