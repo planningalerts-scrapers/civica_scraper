@@ -21,6 +21,20 @@ module CivicaScraper
     url:, period:, disable_ssl_certificate_check: false,
     notice_period: false
   )
+    scrape_period(
+      url: url,
+      period: period,
+      disable_ssl_certificate_check: disable_ssl_certificate_check,
+      notice_period: notice_period
+    ) do |record|
+      save(record)
+    end
+  end
+
+  def self.scrape_period(
+    url:, period:, disable_ssl_certificate_check: false,
+    notice_period: false
+  )
     agent = Mechanize.new
     agent.verify_mode = OpenSSL::SSL::VERIFY_NONE if disable_ssl_certificate_check
     page = agent.get(url)
@@ -72,7 +86,7 @@ module CivicaScraper
         )
       end
 
-      save(merged)
+      yield(merged)
     end
   end
 
