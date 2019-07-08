@@ -10,11 +10,6 @@ module CivicaScraper
       url: "https://ecouncil.wollondilly.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=40801",
       period: :last7days
     },
-    woollahra: {
-      url: "https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270",
-      period: :advertised,
-      notice_period: true
-    },
     nambucca: {
       url:
         "https://eservices.nambucca.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=2811",
@@ -50,6 +45,11 @@ module CivicaScraper
       # Has an incomplete SSL chain: See
       # https://www.ssllabs.com/ssltest/analyze.html?d=eservices.gawler.sa.gov.au
       disable_ssl_certificate_check: true
+    },
+    woollahra: {
+      url: "https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270",
+      period: :advertised,
+      notice_period: true
     }
   }.freeze
 end
