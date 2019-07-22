@@ -2,6 +2,10 @@
 
 module CivicaScraper
   AUTHORITIES = {
+    wanneroo: {
+      url: "https://eservice.wanneroo.wa.gov.au/eservice/daEnquiry.do?nodeNum=8047",
+      period: :last30days
+    },
     south_perth: {
       url: "https://awpe.southperth.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=11&nodeNum=7323",
       period: :last30days
