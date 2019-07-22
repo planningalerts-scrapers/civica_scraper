@@ -2,6 +2,10 @@
 
 module CivicaScraper
   AUTHORITIES = {
+    bunbury: {
+      url: "https://ecouncil.bunbury.wa.gov.au/eservice/daEnquiryInit.do?nodeNum=11264",
+      period: :last30days
+    },
     whittlesea: {
       url:
         "https://eservice.whittlesea.vic.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=25322",

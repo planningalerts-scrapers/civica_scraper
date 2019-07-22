@@ -52,6 +52,8 @@ module CivicaScraper
           :certifier
         when "Assessing Body"
           :assessing_body
+        when "Type"
+          :type
         else
           raise "Unknown key: #{key} with value: #{value}"
         end
