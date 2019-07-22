@@ -2,6 +2,10 @@
 
 module CivicaScraper
   AUTHORITIES = {
+    dorset: {
+      url: "https://eservices.dorset.tas.gov.au/eservice/daEnquiryInit.do?nodeNum=12238",
+      period: :last30days
+    },
     bayside: {
       url: "https://ecouncil.bayside.vic.gov.au/eservice/daEnquiryInit.do?nodeNum=480390",
       period: :last30days
