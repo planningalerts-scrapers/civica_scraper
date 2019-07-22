@@ -34,7 +34,7 @@ module CivicaScraper
 
       def self.normalise_key(key, value)
         case key
-        when "Type of Work", "Description of Work"
+        when "Type of Work", "Description of Work", "Development Description"
           :description
         when "Application No.", "Reference No."
           :council_reference
