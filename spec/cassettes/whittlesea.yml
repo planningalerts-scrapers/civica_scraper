@@ -1,0 +1,1439 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://eservice.whittlesea.vic.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=25322
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Host:
+      - eservice.whittlesea.vic.gov.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache,no-store,max-age=0,must-revalidate,proxy-revalidate
+      Pragma:
+      - No-cache
+      Content-Type:
+      - text/html
+      Content-Language:
+      - en-US
+      Expires:
+      - '0'
+      Server:
+      - Microsoft-IIS/8.0
+      X-Powered-By:
+      - Servlet/3.1
+      Set-Cookie:
+      - JSESSIONID_eslive=0000rngUzPqAl7IrF-wyhxZEUTV:-1; Path=/; Secure; HttpOnly
+      Date:
+      - Mon, 22 Jul 2019 07:07:44 GMT
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    \r\n        \r\n\t        \r\n
+        \       \r\n          \r\n  \r\n\r\n\r\n\r\n      \r\n      \r\n\r\n\r\n\r\n
+        \     \r\n\t  \r\n      \r\n      \r\n\r\n\r\n\r\n    \r\n    \r\n        \r\n
+        \       \r\n    \r\n\r\n\r\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\"
+        \"http://www.w3.org/TR/html4/strict.dtd\">\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<html
+        lang=\"en-US\">\r\n\t<head>\r\n\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"
+        />\r\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"
+        />\r\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1,
+        maximum-scale=1\" />\r\n\t\t<title>\r\n\t\t\t\r\n\t\t</title>\r\n\t\t<link
+        rel=\"stylesheet\" href=\"/eservice/library/bootstrap-335.min.css\" type=\"text/css\"
+        media=\"screen, projection, print\" >\n<link rel=\"stylesheet\" href=\"/eservice/library/jquery-ui.min.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\n<link rel=\"stylesheet\"
+        href=\"/eservice/library/jquery-ui.structure.min.css\" type=\"text/css\" media=\"screen,
+        projection, print\" >\n<link rel=\"stylesheet\" href=\"/eservice/library/jquery-ui.theme.min.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\n<link rel=\"stylesheet\"
+        href=\"/eservice/library/e-services.css\" type=\"text/css\" media=\"screen,
+        projection, print\" >\n<link rel=\"stylesheet\" href=\"/eservice/library/calendar.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\n<link rel=\"stylesheet\"
+        href=\"/eservice/library/daEnquiry_daEnquiry.css\" id=\"pagecss\" type=\"text/css\"
+        media=\"screen, projection\" >\n<link rel=\"stylesheet\" href=\"/eservice/library/e-print.css\"
+        type=\"text/css\" media=\"print\" >\n<link rel=\"stylesheet\" href=\"/eservice/library/header-eserv.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\n<link rel=\"stylesheet\"
+        href=\"/council/eservice/library/eservices-customisation.css\" type=\"text/css\"
+        media=\"screen, projection, print\" >\n\r\n\t\t<script>var AUTHJS = {};AUTHJS.productName
+        = \"i-Services\";</script>\n<script type=\"text/javascript\" src=\"/eservice/jscalendar-1.0/calendar.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/jquery-1.11.3.min.js\"></script>\n<script>AUTHJS.productName
+        = \"e-Services\";</script>\n<script type=\"text/javascript\" src=\"/eservice/javascript/tether-1.3.3.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/modernizr-283.min.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/bootstrap-335.min.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/jquery-ui-datepicker.min.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/e-services-page.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/prototype.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/civica.jquery.plugins.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/civica.common.init.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/civica.jquery.functions.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/util.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/json2.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/effects.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/controls.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/dragdrop.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/lightbox.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/menu.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/menuScroll.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/sitemap.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery.imageTickBox.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery.metadata.js\"></script>\n\r\n\t\t<link
+        rel=\"shortcut icon\" href=\"favicon.ico\" />\r\n\t\t\r\n\t\t\r\n\t\t\t\t<script
+        src=\"/eservice/javascript/da.js\" type=\"text/javascript\"></script>\r\n\t\t\r\n\t\t\t\t<script
+        src=\"/eservice/javascript/mkTree.js\" type=\"text/javascript\"></script>\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t</head>\r\n\t\r\n\t<body\r\n\t\t\r\n\t>\r\n\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<script
+        type=\"text/javascript\">\r\n\tvar initialTabPage= \"null\";\r\n\tjQuery(document).ready(function()
+        {\r\n\t\tif (initialTabPage != \"null\") {\r\n\t\t\tif (initialTabPage==\"sitemap\"){\r\n\t\t\t\tinitialTabPage=\"#sitemap-controller\";
+        \   \r\n\t\t\t} else {\r\n\t\t\t\tinitialTabPage=\"#dashboard-controller\";
+        \      \r\n\t\t\t}\r\n\t\t\tjQuery(initialTabPage + \" a.tab-clicker\").not(\".tabs-content
+        *\").click();\r\n\t\t}\r\n\t\t\r\n\t});\r\n\r\n\t(function() {\r\n\t\tvar
+        isBootstrapEvent = false;\r\n\t\tif (window.jQuery) {\r\n\t\t\tvar all = jQuery('*');\r\n\t\t\tjQuery.each(['hide.bs.dropdown',
+        \r\n\t\t\t\t'hide.bs.collapse', \r\n\t\t\t\t'hide.bs.modal', \r\n\t\t\t\t'hide.bs.tooltip',\r\n\t\t\t\t'hide.bs.popover',\r\n\t\t\t\t'hide.bs.tab'],
+        function(index, eventName) {\r\n\t\t\t\tall.on(eventName, function( event
+        ) {\r\n\t\t\t\t\tisBootstrapEvent = true;\r\n\t\t\t\t});\r\n\t\t\t});\r\n\t\t}\r\n\t\tvar
+        originalHide = Element.hide;\r\n\t\tElement.addMethods({\r\n\t\t\thide: function(element)
+        {\r\n\t\t\t\tif(isBootstrapEvent) {\r\n\t\t\t\t\tisBootstrapEvent = false;\r\n\t\t\t\t\treturn
+        element;\r\n\t\t\t\t}\r\n\t\t\t\treturn originalHide(element);\r\n\t\t\t}\r\n\t\t});\r\n\t})();\r\n</script>\r\n\r\n\r\n\r\n<!--
+        eServices -->\r\n\r\n\t<div id=\"page\" class=\" tabbed not-logged-in\">\r\n\r\n\t\r\n\r\n\r\n\t\t<div
+        id=\"masthead\" class=\"navbar navbar-static-top bs-docs-nav\">\r\n\t\t\t<div
+        class=\"container\" id=\"masthead-container\">\r\n\t\t\t\t<div class=\"navbar-header\">\r\n\t\t\t\t\t<a
+        class=\"navbar-brand\">\r\n\t\t\t\t\t\t<span></span>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\tWhittlesea
+        City Council\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t</a>\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t\t<!--
+        masthead Quicklinks start -->\r\n\t\t\t\t<div id=\"wrapper-quick-links\">\r\n\t\t\t\t\t<ul
+        id=\"quick-links\" class=\"nav navbar-nav navbar-right\">\r\n\t\t\t\t\t\t<li
+        class=\"top-link-home\">\r\n\t\t\t\t\t\t\t<a href=\"/eservice/navigationStart.do\"
+        id=\"quick-link-home\">\r\n\t\t\t\t\t\t\t\tHome\r\n\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<li
+        class=\"top-link-signin\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"/eservice/logonInit.do\"
+        id=\"quick-link-signin\">\r\n\t\t\t\t\t\t\t\t\t\tSign In\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<li
+        class=\"top-link-user\">\r\n\t\t\t\t\t\t\t<a>\r\n\t\t\t\t\t\t\t\t<!-- masthead
+        User start -->\r\n\t\t\t\t                \r\n\t\t\t\t                    \r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\tYou
+        are a Guest\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<!--
+        masthead User end -->\r\n\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t</li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t</div>\r\n\t\t\t\t<!--
+        masthead Quicklinks end -->\r\n\t\t\t</div>\r\n\t\t\t<!-- End container -->\r\n\t\t</div>\r\n\t\t<!--
+        End Masthead -->\r\n\r\n\r\n\t\r\n\r\n\t\t<!-- End Masthead navbar -->\r\n\r\n\r\n\t\t<div
+        id=\"content\">\r\n\r\n\t\t\t<div class=\"container\" id=\"content-container\">\r\n\r\n\t\t\t\t<div
+        class=\"row\" id=\"main-row\">\r\n\r\n\t\t\t\t\t<div class=\"col-sm-3\" id=\"bstrap-leftnav\">\r\n\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<div
+        id=\"search-results\" >\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</div>  \r\n\t\t\t\t\t\t\r\n\r\n\r\n\t\t\t\t\t\t<div
+        id=\"admin-tabs\" >\r\n\t\t\t\t\t\t\t<div id=\"dashboard\" class=\"tabs-content\">\r\n\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\r\n\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<!--
+        START MENU CONTENT -->\r\n\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t<div
+        id=\"menus-toggle\">\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div
+        id=\"menus-button\" class=\"btn btn-default\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span
+        id=\"menus-button-inner\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a id=\"menus-button-link\"
+        href=\"#\">Hide Menus</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t<div
+        id=\"site-access\" class=\"menu-on\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<ul
+        id=\"siteaccesspanel\">\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\r\n\t\r\n\t\r\n\t\r\n\t\t<li
+        id=\"siteaccesspanel_1\">\r\n\t\t\t<div class=\"menu-group\">\r\n\t\t\t\t<div
+        class=\"menu-header-panel\" title=\"Drag to change panel order\">\r\n\t\t\t\t\t<h3
+        class=\"panel-handle\">Menu</h3>\r\n\t\t\t\t</div>\r\n\t\t\t\t<p class=\"menu-handlers\">\r\n\t\t\t\t\r\n\t\t\t\t<a
+        href=\"/eservice/menu/minimisePanel.do?id=1\" title=\"Minimise Panel\" class=\"panel-min-max\"
+        id=\"panel-min-max-1\" >\n<img src=\"/eservice/icons/minimise.gif\" alt=\"Minimise\"
+        />\n</a>\n\r\n\t\t\t\t</p>\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n\r\n\t\t\t\t\t\t<div
+        id=\"menu-search\">\r\n\t\t\t\t\t\t\t<form action=\"/eservice/menu/search.do\"
+        class=\"menu-search-form\">\r\n\t\t\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<input
+        type=\"text\" size=\"15\" name=\"search\" id=\"search\" class=\"field\"  value=\"Menu
+        Search\" />\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<input type=\"submit\"
+        id=\"menu-search-submit\" value=\"Go\" class=\"buttonCalendar\" />\r\n\t\t\t\t\t\t\t\t<img
+        src=\"/eservice/icons/loading.gif\" alt=\"loading\" class=\"loading\" id=\"menu-search-loading\"
+        />\r\n\t\t\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t\t\t<!-- div id=\"search-autocomplete\"
+        class=\"autocompleter\"></div -->\r\n\t\t\t\t\t\t\t</form>\r\n\t\t\t\t\t\t\t<div
+        id=\"search-results\" >\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t<div
+        id=\"scrollingMenuContainer\" class=\"scrolling-container\">\r\n\t\t\t\t<ul
+        id=\"navigation\">\r\n\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\t\r\n\t\t\r\n\t\t\t<li
+        class=\"nav-return\" title=\"Back one menu level\"><a href=\"/eservice/navigationStart.do\"
+        id=\"node-0\"><img src=\"/eservice/icons/parent.gif\" alt=\"Return to \" />Applications
+        \                                     </a></li>\r\n\t\t\r\n\t\r\n\r\n\t\r\n\r\n\t\r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n
+        \       \r\n    \t    <li class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/das/online/Init.do?nodeNum=23944\"
+        class=\"linkitem\" id=\"node-23944\">Lodge Application</a>\r\n        </li>\r\n
+        \ \r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n        \r\n    \t    <li
+        class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=23945\"
+        class=\"linkitem\" id=\"node-23945\">Search Planning Application</a>\r\n        </li>\r\n
+        \ \r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n        \r\n    \t    <li
+        class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=25322\"
+        class=\"linkitem\" id=\"node-25322\">Enquire Planning Applications</a>\r\n
+        \       </li>\r\n  \r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n        \r\n
+        \   \t    <li class='java'>\r\n    \t\r\n\t       <a href=\"https://eservice.whittlesea.vic.gov.au/eservice/dialog/crm/selectCategory.do?key_num=2616&nodeNum=25922\"
+        class=\"linkitem\" id=\"node-25922\">Lodge section 30 documentation</a>\r\n
+        \       </li>\r\n  \r\n\r\n\r\n\r\n\t\t\t\t</ul>\r\n\t\t\t</div>\r\n\t\t\t\r\n\t\t\t
+        \r\n\t\t\t</div>\r\n\t\t</li>\r\n\t\r\n\r\n\r\n\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\r\n\t\r\n\t\r\n\t\t\t<li
+        id=\"siteaccesspanel_3\">\r\n\t\t\t\t<div class=\"menu-group\">\r\n\t\t\t\t\t<div
+        class=\"menu-header-panel\" title=\"Drag to change panel order\">\r\n\t\t\t\t\t\t<h3
+        class=\"panel-handle\">History</h3>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<p class=\"menu-handlers\">\r\n\t\t\t\t\t\r\n\t\t\t\t\t<a
+        href=\"/eservice/menu/movePanel.do?id=2\" title=\"Panel Up\" class=\"panel-up\">\r\n\t\t\t\t\t\t\t\t\t\t<img
+        src=\"/eservice/icons/panel_move_up.gif\" alt=\"Up\" /></a>\r\n\t\t\t\t\t\r\n\t\t\t\t\t<a
+        href=\"/eservice/menu/minimisePanel.do?id=2\" title=\"Minimise Panel\" class=\"panel-min-max\"
+        id=\"panel-min-max-2\" >\n<img src=\"/eservice/icons/minimise.gif\" alt=\"Minimise\"
+        />\n</a>\n\r\n\t\t\t\t\t</p>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t\t<ul id=\"recently-used\">\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<li
+        id=\"recently-used-0\">\r\n                                <a href=\"/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=25322\"
+        class=\"linkitem\">Enquire Planning Applications</a>\r\n                                \r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t</li>\r\n\t\r\n\r\n\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\r\n</ul>\r\n<script
+        type=\"text/javascript\">\r\n\t//Drag n Drop panels\r\n\tSortable.create('siteaccesspanel',
+        {handle: 'panel-handle', onUpdate:function(){new Ajax.Request(webContextPath
+        + '/resequencePanels.do', {method: 'post', parameters:Sortable.serialize('siteaccesspanel')})}});\r\n</script>\r\n\r\n<p
+        id=\"scroll-trigger\">10</p>\r\n<p id=\"alternate-scroll-trigger\"></p>\r\n<p
+        id=\"pixel-height-base-rate-for-list-item\">24</p>\r\n\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t<div
+        class=\"col-sm-9\" id=\"bstrap-main\">\r\n\t\t\t\t\t\t<div id=\"main-content\">\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<div
+        class=\"transaction-area\" id=\"transaction-area\"></div>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<!--
+        END MENU CONTENT -->\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<div class=\"unique-content\"
+        id=\"daEnquiry_daEnquiry\">\n<div class=\"daEnquirySpecific\" id=\"daEnquiry_daEnquiryDocumentType5\">\n\r\n\t\t\t\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\r\n\t\t\r\n\t\t<h1>\r\n\t\t\t\r\n
+        \         \r\n          \r\n              Planning Application Enquiry\r\n
+        \         \r\n\t  \r\n\t\t\t\r\n\t\t</h1>\r\n\t\r\n\t\r\n\r\n\t\r\n\t\r\n<div
+        id=\"leftcontent\">\r\n\r\n\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n<div class=\"infopanel\">
+        \   \r\n\t<!-- CIVICA-INFO-START -->   \r\n\t\r\n        <div id=\"infopanel-header\">\r\n\t
+        \       <h4 class=\"entryHeader\" >\r\n\t            \r\n\t\tInstructions\r\n\t\t\r\n\t
+        \       </h4>\r\n        </div>\r\n\t\r\n    <div id=\"instructions-content\"
+        class=\"instructions\">\n\r\n        \r\n\r\n\r\n\r\n\r\n\r\n<ol><li>To make
+        an enquiry, enter information that identifies the applications or properties
+        of interest.</li><li>If searching by Planning Application Number, please enter
+        the application number e.g. 710576 .</li><li>If searching by Property Details,
+        please follow the number sequence as shown. In the Street Name box, please
+        enter the street name only, do not include the street type.</li><li>Find out
+        more information regarding the <a href=http://services.land.vic.gov.au/landchannel/content/addressSearch><b><u>Zones
+        and Overlays</b></u></a> of your property</li><li>Vew the <a href=http://planningschemes.dpcd.vic.gov.au/schemes/whittlesea><b><u>Whittlesea
+        Planning Scheme</u></b></a></li></ol>\r\n\r\n    </div>\n\r\n\t<!-- CIVICA-INFO-END
+        -->\r\n</div>\r\n\r\n</div>\r\n<div id=\"rightcontent\">\r\n\t\t\r\n\t\t\t\r\n\t\t\r\n\r\n\r\n\r\n\r\n<div
+        class=\"bodypanel\" id=\"bodypanel1\">   \t\t\r\n\t<!-- CIVICA-CONTENT-START:bodypanel1
+        -->\r\n\t\r\n   <h2 >\r\n\t\t\r\n\t\t\r\n\t      \t\tApplication Details\r\n\t
+        \       \r\n    </h2>\r\n\r\n\t\t<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div>\r\n
+        \ <form action=\"daEnquiry.do\" id=\"daEnquiryForm\" name=\"daEnquiryForm\"
+        class=\"form-horizontal\">\r\n    <div class=\"form-group\">\r\n      <label
+        class=\"col-sm-2 control-label\">Planning Application Number</label>\r\n      <div
+        class=\"col-sm-10\">\r\n        <input type=\"text\" class=\"text-medium\"
+        name=\"number\" id=\"DANumber\" size=\"10\" maxlength=\"10\" errors=\"DANumber\"
+        value=\"\" />\r\n        <span class=\"subText\">e.g. 710567 - in Council
+        documentation this number is shown as 710567</span>\r\n      </div>\r\n    </div>\r\n
+        \   <p />\r\n    <p class=\"rowDataOnly\">\r\n      <span class=\"rowInfo\">\r\n
+        \       <strong>OR</strong>\r\n        use any of the following search fields:\r\n
+        \     </span>\r\n    </p>\r\n    <p>\r\n      \r\n      &nbsp;\r\n      \r\n
+        \   </p>\r\n    <h2>Lodgement Date</h2>\r\n    <div class=\"form-control\"
+        style=\"margin-bottom:2em; border:none; padding:0\">\r\n      <label class=\"radio-inline
+        control-label control-radio\">\r\n        <input type=\"radio\" name=\"lodgeRangeType\"
+        id=\"lodgeRangeType\" onclick=\"javascript:setDateRange('', '', 'DADateFrom',
+        'DADateTo')\" />\r\n        <span class=\"indicator\" />\r\n        Specified
+        Range\r\n      </label>\r\n      <label class=\"radio-inline control-label
+        control-radio\">\r\n        <input type=\"radio\" name=\"lodgeRangeType\"
+        id=\"lodgeRangeType\" onclick=\"javascript:setDateRange('21/07/2019','22/07/2019',
+        'DADateFrom', 'DADateTo')\" />\r\n        <span class=\"indicator\" />\r\n
+        \       This Week\r\n      </label>\r\n      <label class=\"radio-inline control-label
+        control-radio\">\r\n        <input type=\"radio\" name=\"lodgeRangeType\"
+        id=\"lodgeRangeType\" onclick=\"javascript:setDateRange('14/07/2019','20/07/2019',
+        'DADateFrom', 'DADateTo')\" />\r\n        <span class=\"indicator\" />\r\n
+        \       Last Week\r\n      </label>\r\n      <label class=\"radio-inline control-label
+        control-radio\">\r\n        <input type=\"radio\" name=\"lodgeRangeType\"
+        id=\"lodgeRangeType\" onclick=\"javascript:setDateRange('01/07/2019','31/07/2019',
+        'DADateFrom', 'DADateTo')\" />\r\n        <span class=\"indicator\" />\r\n
+        \       This Month\r\n      </label>\r\n      <label class=\"radio-inline
+        control-label control-radio\">\r\n        <input type=\"radio\" name=\"lodgeRangeType\"
+        id=\"lodgeRangeType\" onclick=\"javascript:setDateRange('01/06/2019','30/06/2019',
+        'DADateFrom', 'DADateTo')\" />\r\n        <span class=\"indicator\" />\r\n
+        \       Last Month\r\n      </label>\r\n    </div>\r\n    <div class=\"form-group\">\r\n
+        \     <span id=\"daFromDateRow\">\r\n        <label class=\"col-md-2 col-xs-3
+        control-label\" for=\"DADateFrom\" id=\"daFromDateLabel\" style=\"width:5%\">From</label>\r\n
+        \       <div class=\"inputField col-md-4 col-xs-9\" id=\"daFromDateInput\">\r\n
+        \         <input type=\"text\" class=\"datepick text-small\" name=\"dateFrom\"
+        id=\"DADateFrom\" style=\"padding-right: 0px\" size=\"10\" maxlength=\"10\"
+        errors=\"DADateFrom\" value=\"\" />\r\n        </div>\r\n      </span>\r\n
+        \     <span id=\"daToDateRow\">\r\n        <label class=\"col-md-2 col-xs-3
+        control-label\" for=\"DADateTo\" id=\"daToDateLabel\" style=\"width:5%\">To</label>\r\n
+        \       <div class=\"inputField col-md-4 col-xs-9\" id=\"daToDateInput\">\r\n
+        \         <input type=\"text\" class=\"datepick text-small\" name=\"dateTo\"
+        id=\"DADateTo\" style=\"padding-right: 0px\" size=\"10\" maxlength=\"10\"
+        errors=\"DADateTo\" value=\"\" />\r\n        </div>\r\n      </span>\r\n    </div>\r\n
+        \   <h2>Determination Date</h2>\r\n    <div class=\"form-control\" style=\"margin-bottom:2em;
+        border:none; padding:0\">\r\n      <label class=\"radio-inline control-label
+        control-radio\">\r\n        <input type=\"radio\" name=\"detRangeType\" id=\"detRangeType\"
+        onclick=\"javascript:setDateRange('','', 'detDateFromString', 'detDateToString')\"
+        />\r\n        <span class=\"indicator\" />\r\n        Specified Range\r\n
+        \     </label>\r\n      <label class=\"radio-inline control-label control-radio\">\r\n
+        \       <input type=\"radio\" name=\"detRangeType\" id=\"detRangeType\" onclick=\"javascript:setDateRange('21/07/2019','22/07/2019',
+        'detDateFromString', 'detDateToString')\" />\r\n        <span class=\"indicator\"
+        />\r\n        This Week\r\n      </label>\r\n      <label class=\"radio-inline
+        control-label control-radio\">\r\n        <input type=\"radio\" name=\"detRangeType\"
+        id=\"detRangeType\" onclick=\"javascript:setDateRange('14/07/2019','20/07/2019',
+        'detDateFromString', 'detDateToString')\" />\r\n        <span class=\"indicator\"
+        />\r\n        Last Week\r\n      </label>\r\n      <label class=\"radio-inline
+        control-label control-radio\">\r\n        <input type=\"radio\" name=\"detRangeType\"
+        id=\"detRangeType\" onclick=\"javascript:setDateRange('01/07/2019','31/07/2019',
+        'detDateFromString', 'detDateToString')\" />\r\n        <span class=\"indicator\"
+        />\r\n        This Month\r\n      </label>\r\n      <label class=\"radio-inline
+        control-label control-radio\">\r\n        <input type=\"radio\" name=\"detRangeType\"
+        id=\"detRangeType\" onclick=\"javascript:setDateRange('01/06/2019','30/06/2019',
+        'detDateFromString', 'detDateToString')\" />\r\n        <span class=\"indicator\"
+        />\r\n        Last Month\r\n      </label>\r\n    </div>\r\n    <div class=\"form-group\">\r\n
+        \     <span id=\"daFromDateRow\">\r\n        <label class=\"col-md-2 col-xs-3
+        control-label\" for=\"detDateFromString\" id=\"daFromDateLabel\" style=\"width:5%\">From</label>\r\n
+        \       <div class=\"inputField col-md-4 col-xs-9\" id=\"detFromDateInput\">\r\n
+        \         <input type=\"text\" class=\"datepick text-small\" name=\"detDateFromString\"
+        id=\"detDateFromString\" size=\"10\" maxlength=\"10\" errors=\"DADateFrom\"
+        value=\"\" />\r\n        </div>\r\n      </span>\r\n      <span id=\"daToDateRow\">\r\n
+        \       <label class=\"col-md-2 col-xs-3 control-label\" for=\"detDateToString\"
+        id=\"deToDateLabel\" style=\"width:5%\">To</label>\r\n        <div class=\"inputField
+        col-md-4 col-xs-9\" id=\"etToDateInput\">\r\n          <input type=\"text\"
+        class=\"datepick text-small\" name=\"detDateToString\" id=\"detDateToString\"
+        size=\"10\" maxlength=\"10\" errors=\"DADateTo\" value=\"\" />\r\n        </div>\r\n
+        \     </span>\r\n    </div>\r\n    <h2>Property Details</h2>\r\n    <div class=\"form-group\"
+        id=\"streetNameRow\">\r\n      <label class=\"control-label col-sm-2\" for=\"streetName\">Street
+        Name</label>\r\n      <div class=\"col-sm-10\">\r\n        <input type=\"text\"
+        class=\"text-large\" name=\"streetName\" id=\"streetName\" size=\"20\" onblur=\"javascript:getHouseNum();
+        javascript:getSuburb()\" value=\"\" />\r\n        <div id=\"streetHints\"
+        class=\"autocompleter\">\r\n          \r\n          &nbsp;\r\n          \r\n
+        \       </div>\r\n      </div>\r\n    </div>\r\n    <div class=\"form-group\"
+        id=\"suburbDropdownRow\">\r\n      <label class=\"control-label col-sm-2\"
+        for=\"suburb\">Suburb</label>\r\n      <div class=\"col-sm-10\">\r\n        <div
+        id=\"suburbSelect\">\r\n          <select class=\"select-medium\" name=\"suburb\"
+        id=\"suburb\">\r\n            <option value=\"0\" selected=\"selected\">-
+        -None Selected- -</option>\r\n            <option value=\"40\">ABBOTSFORD</option>\r\n
+        \           <option value=\"718\">ABERFELDIE</option>\r\n            <option
+        value=\"97\">AIRPORT WEST</option>\r\n            <option value=\"264\">ALBION</option>\r\n
+        \           <option value=\"501\">ALPHINGTON</option>\r\n            <option
+        value=\"146\">ALTONA</option>\r\n            <option value=\"90\">ALTONA MEADOWS</option>\r\n
+        \           <option value=\"41\">ARDEER</option>\r\n            <option value=\"570\">ARMADALE</option>\r\n
+        \           <option value=\"1\">ARTHURS CREEK</option>\r\n            <option
+        value=\"164\">ASCOT VALE</option>\r\n            <option value=\"262\">ASHBURTON</option>\r\n
+        \           <option value=\"121\">ASPENDALE GARDENS</option>\r\n            <option
+        value=\"186\">ATTWOOD</option>\r\n            <option value=\"136\">AVONDALE
+        HEIGHTS</option>\r\n            <option value=\"151\">BACCHUS MARSH</option>\r\n
+        \           <option value=\"159\">BALLAN</option>\r\n            <option value=\"706\">BALWYN</option>\r\n
+        \           <option value=\"120\">BALWYN NORTH</option>\r\n            <option
+        value=\"68\">BAYSWATER</option>\r\n            <option value=\"675\">BAYSWATER
+        NORTH</option>\r\n            <option value=\"624\">BELGRAVE SOUTH</option>\r\n
+        \           <option value=\"662\">BELLFIELD</option>\r\n            <option
+        value=\"698\">BENTLEIGH</option>\r\n            <option value=\"646\">BENTLEIGH
+        EAST</option>\r\n            <option value=\"171\">BERWICK</option>\r\n            <option
+        value=\"2\">BEVERIDGE</option>\r\n            <option value=\"692\">BLACKBURN</option>\r\n
+        \           <option value=\"699\">BLACKBURN NORTH</option>\r\n            <option
+        value=\"74\">BLACKBURN SOUTH</option>\r\n            <option value=\"93\">BORONIA</option>\r\n
+        \           <option value=\"654\">BOX HILL</option>\r\n            <option
+        value=\"135\">BOX HILL NORTH</option>\r\n            <option value=\"716\">BOX
+        HILL SOUTH</option>\r\n            <option value=\"638\">BRAESIDE</option>\r\n
+        \           <option value=\"647\">BRAYBROOK</option>\r\n            <option
+        value=\"601\">BRIAR HILL</option>\r\n            <option value=\"610\">BRIGHTON</option>\r\n
+        \           <option value=\"609\">BRIGHTON EAST</option>\r\n            <option
+        value=\"89\">BROADFORD</option>\r\n            <option value=\"34\">BROADMEADOWS</option>\r\n
+        \           <option value=\"671\">BROOKFIELD</option>\r\n            <option
+        value=\"563\">BRUNSWICK</option>\r\n            <option value=\"697\">BRUNSWICK
+        EAST</option>\r\n            <option value=\"668\">BRUNSWICK WEST</option>\r\n
+        \           <option value=\"725\">BULLA</option>\r\n            <option value=\"580\">BULLEEN</option>\r\n
+        \           <option value=\"4\">BUNDOORA</option>\r\n            <option value=\"589\">BURNSIDE</option>\r\n
+        \           <option value=\"69\">BURWOOD</option>\r\n            <option value=\"261\">BURWOOD
+        EAST</option>\r\n            <option value=\"628\">CAIRNLEA</option>\r\n            <option
+        value=\"672\">CAMBERWELL</option>\r\n            <option value=\"659\">CAMBRIDGE
+        GARDENS</option>\r\n            <option value=\"5\">CAMPBELLFIELD</option>\r\n
+        \           <option value=\"711\">CARLTON</option>\r\n            <option
+        value=\"49\">CARLTON NORTH</option>\r\n            <option value=\"47\">CAROLINE
+        SPRINGS</option>\r\n            <option value=\"168\">CARRUM DOWNS</option>\r\n
+        \           <option value=\"630\">CAULFIELD EAST</option>\r\n            <option
+        value=\"661\">CAULFIELD NORTH</option>\r\n            <option value=\"705\">CHADSTONE</option>\r\n
+        \           <option value=\"667\">CHINTIN</option>\r\n            <option
+        value=\"695\">CHIRNSIDE PARK</option>\r\n            <option value=\"704\">CHRISTMAS
+        HILLS</option>\r\n            <option value=\"608\">CLAYTON</option>\r\n            <option
+        value=\"637\">CLAYTON SOUTH</option>\r\n            <option value=\"571\">CLIFTON
+        HILL</option>\r\n            <option value=\"717\">CLONBINANE</option>\r\n
+        \           <option value=\"156\">COBURG</option>\r\n            <option value=\"715\">COBURG
+        NORTH</option>\r\n            <option value=\"127\">COCKATOO</option>\r\n
+        \           <option value=\"651\">COLLINGWOOD</option>\r\n            <option
+        value=\"586\">COOLAROO</option>\r\n            <option value=\"6\">CRAIGIEBURN</option>\r\n
+        \           <option value=\"163\">CRANBOURNE</option>\r\n            <option
+        value=\"700\">CROYDON</option>\r\n            <option value=\"160\">DALLAS</option>\r\n
+        \           <option value=\"167\">DEER PARK</option>\r\n            <option
+        value=\"161\">DELAHEY</option>\r\n            <option value=\"660\">DERRIMUT</option>\r\n
+        \           <option value=\"60\">DIAMOND CREEK</option>\r\n            <option
+        value=\"72\">DIGGERS REST</option>\r\n            <option value=\"230\">DONCASTER</option>\r\n
+        \           <option value=\"37\">DONCASTER EAST</option>\r\n            <option
+        value=\"7\">DONNYBROOK</option>\r\n            <option value=\"107\">DONVALE</option>\r\n
+        \           <option value=\"8\">DOREEN</option>\r\n            <option value=\"108\">DROMANA</option>\r\n
+        \           <option value=\"627\">EAGLEMONT</option>\r\n            <option
+        value=\"623\">EAST BENTLEIGH</option>\r\n            <option value=\"680\">EAST
+        MELBOURNE</option>\r\n            <option value=\"9\">EDEN PARK</option>\r\n
+        \           <option value=\"251\">ELSTERNWICK</option>\r\n            <option
+        value=\"112\">ELTHAM</option>\r\n            <option value=\"648\">ELTHAM
+        NORTH</option>\r\n            <option value=\"138\">ELWOOD</option>\r\n            <option
+        value=\"10\">EPPING</option>\r\n            <option value=\"583\">ESSENDON</option>\r\n
+        \           <option value=\"632\">ESSENDON NORTH</option>\r\n            <option
+        value=\"732\">EUROA</option>\r\n            <option value=\"65\">FAIRFIELD</option>\r\n
+        \           <option value=\"58\">FAWKNER</option>\r\n            <option value=\"129\">FERNTREE
+        GULLY</option>\r\n            <option value=\"625\">FITZROY</option>\r\n            <option
+        value=\"701\">FITZROY NORTH</option>\r\n            <option value=\"666\">FLEMINGTON</option>\r\n
+        \           <option value=\"584\">FLOWERDALE</option>\r\n            <option
+        value=\"640\">GISBORNE</option>\r\n            <option value=\"80\">GLADSTONE
+        PARK</option>\r\n            <option value=\"590\">GLEN FORBES</option>\r\n
+        \           <option value=\"165\">GLEN IRIS</option>\r\n            <option
+        value=\"137\">GLEN WAVERLEY</option>\r\n            <option value=\"88\">GLENROY</option>\r\n
+        \           <option value=\"702\">GOBARUP</option>\r\n            <option
+        value=\"683\">GOWANBRAE</option>\r\n            <option value=\"67\">GREENSBOROUGH</option>\r\n
+        \           <option value=\"42\">GREENVALE</option>\r\n            <option
+        value=\"708\">HADFIELD</option>\r\n            <option value=\"227\">HALLAM</option>\r\n
+        \           <option value=\"126\">HAMPTON PARK</option>\r\n            <option
+        value=\"604\">HAWTHORN</option>\r\n            <option value=\"719\">HAZELDENE</option>\r\n
+        \           <option value=\"652\">HEALESVILLE</option>\r\n            <option
+        value=\"44\">HEATHCOTE JUNCTION</option>\r\n            <option value=\"91\">HEIDELBERG</option>\r\n
+        \           <option value=\"634\">HEIDELBERG HEIGHTS</option>\r\n            <option
+        value=\"115\">HEIDELBERG WEST</option>\r\n            <option value=\"125\">HIDDEN
+        VALLEY</option>\r\n            <option value=\"113\">HILLSIDE</option>\r\n
+        \           <option value=\"114\">HOPPERS CROSSING</option>\r\n            <option
+        value=\"11\">HUMEVALE</option>\r\n            <option value=\"148\">HURSTBRIDGE</option>\r\n
+        \           <option value=\"561\">INDENTED HEAD</option>\r\n            <option
+        value=\"582\">IVANHOE</option>\r\n            <option value=\"714\">IVANHOE
+        EAST</option>\r\n            <option value=\"722\">JACANA</option>\r\n            <option
+        value=\"12\">KAL KALLO</option>\r\n            <option value=\"81\">KANGAROO
+        GROUND</option>\r\n            <option value=\"669\">KEALBA</option>\r\n            <option
+        value=\"59\">KEILOR</option>\r\n            <option value=\"641\">KEILOR DOWNS</option>\r\n
+        \           <option value=\"688\">KEILOR EAST</option>\r\n            <option
+        value=\"263\">KEILOR LODGE</option>\r\n            <option value=\"162\">KEILOR
+        PARK</option>\r\n            <option value=\"606\">KENSINGTON</option>\r\n
+        \           <option value=\"13\">KEON PARK</option>\r\n            <option
+        value=\"696\">KEW</option>\r\n            <option value=\"689\">KEW EAST</option>\r\n
+        \           <option value=\"622\">KEYSBOROUGH</option>\r\n            <option
+        value=\"70\">KILMORE</option>\r\n            <option value=\"684\">KILSYTH</option>\r\n
+        \           <option value=\"612\">KINGLAKE</option>\r\n            <option
+        value=\"14\">KINGLAKE WEST</option>\r\n            <option value=\"157\">KINGSBURY</option>\r\n
+        \           <option value=\"15\">LALOR</option>\r\n            <option value=\"172\">LANCEFIELD</option>\r\n
+        \           <option value=\"635\">LANGWARRIN</option>\r\n            <option
+        value=\"532\">LARA</option>\r\n            <option value=\"691\">LAUNCHING
+        PLACE</option>\r\n            <option value=\"46\">LAVERTON</option>\r\n            <option
+        value=\"727\">LEOPOLD</option>\r\n            <option value=\"100\">LILYDALE</option>\r\n
+        \           <option value=\"149\">LOWER PLENTY</option>\r\n            <option
+        value=\"102\">LOWER TEMPLESTOWE</option>\r\n            <option value=\"150\">LYNBROOK</option>\r\n
+        \           <option value=\"169\">LYNDHURST</option>\r\n            <option
+        value=\"254\">MACEDON</option>\r\n            <option value=\"53\">MACLEOD</option>\r\n
+        \           <option value=\"645\">MAIDSTONE</option>\r\n            <option
+        value=\"713\">MALVERN</option>\r\n            <option value=\"611\">MALVERN
+        EAST</option>\r\n            <option value=\"723\">MANIFOLD HEIGHTS</option>\r\n
+        \           <option value=\"626\">MARIBYRNONG</option>\r\n            <option
+        value=\"720\">MARYSVILLE</option>\r\n            <option value=\"560\">MC
+        LEOD</option>\r\n            <option value=\"109\">MCCRAE</option>\r\n            <option
+        value=\"33\">MEADOW HEIGHTS</option>\r\n            <option value=\"600\">MELBOURNE</option>\r\n
+        \           <option value=\"643\">MELTON</option>\r\n            <option value=\"95\">MELTON
+        SOUTH</option>\r\n            <option value=\"707\">MELTON WEST</option>\r\n
+        \           <option value=\"16\">MERNDA</option>\r\n            <option value=\"38\">MICKLEHAM</option>\r\n
+        \           <option value=\"733\">MIDDLE PARK</option>\r\n            <option
+        value=\"17\">MIDHURST HURSTBRIDGE</option>\r\n            <option value=\"512\">MILDURA</option>\r\n
+        \           <option value=\"18\">MILL PARK</option>\r\n            <option
+        value=\"693\">MITCHAM</option>\r\n            <option value=\"734\">MONEGEETTA</option>\r\n
+        \           <option value=\"709\">MONT ALBERT</option>\r\n            <option
+        value=\"728\">MONT ALBERT NORTH</option>\r\n            <option value=\"30\">MONTMORENCY</option>\r\n
+        \           <option value=\"39\">MOONEE PONDS</option>\r\n            <option
+        value=\"35\">MOORABBIN</option>\r\n            <option value=\"96\">MOOROOLBARK</option>\r\n
+        \           <option value=\"591\">MORDIALLOC</option>\r\n            <option
+        value=\"122\">MORETON</option>\r\n            <option value=\"642\">MORNINGTON</option>\r\n
+        \           <option value=\"598\">MOUNT WAVERLEY</option>\r\n            <option
+        value=\"603\">MULGRAVE</option>\r\n            <option value=\"687\">MURRUMBEENA</option>\r\n
+        \           <option value=\"3\">MYRNIONG</option>\r\n            <option value=\"252\">NARRE
+        WARREN</option>\r\n            <option value=\"636\">NARRE WARREN NORTH</option>\r\n
+        \           <option value=\"77\">NEWPORT</option>\r\n            <option value=\"48\">NIDDRIE</option>\r\n
+        \           <option value=\"170\">NORTH BALWYN</option>\r\n            <option
+        value=\"158\">NORTH COBURG</option>\r\n            <option value=\"145\">NORTH
+        MELBOURNE</option>\r\n            <option value=\"66\">NORTHCOTE</option>\r\n
+        \           <option value=\"147\">NUNAWADING</option>\r\n            <option
+        value=\"19\">NUTFIELD</option>\r\n            <option value=\"101\">OAK PARK</option>\r\n
+        \           <option value=\"253\">OAKLANDS JUNCTION</option>\r\n            <option
+        value=\"656\">OAKLANDS PARK</option>\r\n            <option value=\"134\">OAKLEIGH</option>\r\n
+        \           <option value=\"712\">OAKLEIGH EAST</option>\r\n            <option
+        value=\"73\">ORMOND</option>\r\n            <option value=\"657\">PAKENHAM</option>\r\n
+        \           <option value=\"61\">PASCOE VALE</option>\r\n            <option
+        value=\"676\">PASCOE VALE SOUTH</option>\r\n            <option value=\"76\">PLENTY</option>\r\n
+        \           <option value=\"130\">POINT COOK</option>\r\n            <option
+        value=\"729\">POINT LONSDALE</option>\r\n            <option value=\"83\">PORT
+        MELBOURNE</option>\r\n            <option value=\"599\">PRAHRAN</option>\r\n
+        \           <option value=\"104\">PRESTON</option>\r\n            <option
+        value=\"139\">RESEARCH</option>\r\n            <option value=\"45\">RESERVOIR</option>\r\n
+        \           <option value=\"673\">RICHMOND</option>\r\n            <option
+        value=\"682\">RINGWOOD EAST</option>\r\n            <option value=\"658\">ROMSEY</option>\r\n
+        \           <option value=\"63\">ROSANNA</option>\r\n            <option value=\"103\">ROSEBUD</option>\r\n
+        \           <option value=\"320\">ROWVILLE</option>\r\n            <option
+        value=\"36\">ROXBURGH PARK</option>\r\n            <option value=\"62\">RYE</option>\r\n
+        \           <option value=\"78\">SAFETY BEACH</option>\r\n            <option
+        value=\"679\">SANCTUARY LAKES</option>\r\n            <option value=\"639\">SEABROOK</option>\r\n
+        \           <option value=\"607\">SEAFORD</option>\r\n            <option
+        value=\"133\">SKYE</option>\r\n            <option value=\"20\">SOMERTON</option>\r\n
+        \           <option value=\"721\">SORRENTO</option>\r\n            <option
+        value=\"75\">SOUTH MELBOURNE</option>\r\n            <option value=\"21\">SOUTH
+        MORANG</option>\r\n            <option value=\"562\">SOUTH YARRA</option>\r\n
+        \           <option value=\"142\">SPRINGVALE</option>\r\n            <option
+        value=\"703\">SPRINGVALE SOUTH</option>\r\n            <option value=\"140\">ST
+        ALBANS</option>\r\n            <option value=\"55\">ST ANDREWS</option>\r\n
+        \           <option value=\"592\">ST HELENA</option>\r\n            <option
+        value=\"290\">ST KILDA</option>\r\n            <option value=\"724\">ST LEONARDS</option>\r\n
+        \           <option value=\"22\">STRATHEWEN</option>\r\n            <option
+        value=\"94\">STRATHMORE</option>\r\n            <option value=\"56\">SUNBURY</option>\r\n
+        \           <option value=\"31\">SUNSHINE</option>\r\n            <option
+        value=\"51\">SUNSHINE NORTH</option>\r\n            <option value=\"677\">SUNSHINE
+        WEST</option>\r\n            <option value=\"260\">SURREY HILLS</option>\r\n
+        \           <option value=\"64\">SYDENHAM</option>\r\n            <option
+        value=\"71\">TALLAROOK</option>\r\n            <option value=\"665\">TARNEIT</option>\r\n
+        \           <option value=\"678\">TAYLORS HILL</option>\r\n            <option
+        value=\"32\">TAYLORS LAKES</option>\r\n            <option value=\"131\">TEMPLESTOWE</option>\r\n
+        \           <option value=\"644\">THE BASIN</option>\r\n            <option
+        value=\"23\">THOMASTOWN</option>\r\n            <option value=\"128\">THORNBURY</option>\r\n
+        \           <option value=\"50\">TORQUAY</option>\r\n            <option value=\"685\">TRUGANINA</option>\r\n
+        \           <option value=\"54\">TULLAMARINE</option>\r\n            <option
+        value=\"24\">UPPER PLENTY</option>\r\n            <option value=\"730\">VERMONT</option>\r\n
+        \           <option value=\"681\">VERMONT SOUTH</option>\r\n            <option
+        value=\"99\">VIEW BANK</option>\r\n            <option value=\"52\">WALLAN</option>\r\n
+        \           <option value=\"605\">WALLAN EAST</option>\r\n            <option
+        value=\"250\">WANDIN NORTH</option>\r\n            <option value=\"581\">WANDONG</option>\r\n
+        \           <option value=\"731\">WANTIRNA</option>\r\n            <option
+        value=\"633\">WARRANDYTE</option>\r\n            <option value=\"132\">WARRANWOOD</option>\r\n
+        \           <option value=\"57\">WATSONIA</option>\r\n            <option
+        value=\"602\">WATSONIA NORTH</option>\r\n            <option value=\"500\">WATTLE
+        GLEN</option>\r\n            <option value=\"43\">WERRIBEE</option>\r\n            <option
+        value=\"726\">WEST FOOTSCRAY</option>\r\n            <option value=\"653\">WEST
+        HEIDELBERG</option>\r\n            <option value=\"82\">WEST MEADOWS</option>\r\n
+        \           <option value=\"154\">WEST PRESTON</option>\r\n            <option
+        value=\"152\">WESTERN GARDENS</option>\r\n            <option value=\"144\">WHEELERS
+        HILL</option>\r\n            <option value=\"25\">WHITTLESEA</option>\r\n
+        \           <option value=\"255\">WHOLE MUNICIPALITY</option>\r\n            <option
+        value=\"166\">WILLIAMSTOWN</option>\r\n            <option value=\"26\">WOLLERT</option>\r\n
+        \           <option value=\"670\">WONGA PARK</option>\r\n            <option
+        value=\"686\">WOODEND</option>\r\n            <option value=\"27\">WOODSTOCK</option>\r\n
+        \           <option value=\"650\">WYNDHAM GREEN</option>\r\n            <option
+        value=\"98\">WYNDHAM VALE</option>\r\n            <option value=\"694\">WYNDHAM
+        WATERS</option>\r\n            <option value=\"79\">YALLAMBIE</option>\r\n
+        \           <option value=\"28\">YAN YEAN</option>\r\n            <option
+        value=\"124\">YARRA GLEN</option>\r\n            <option value=\"29\">YARRAMBAT</option>\r\n
+        \           <option value=\"649\">YARRAVILLE</option>\r\n            <option
+        value=\"710\">YEA</option>\r\n          </select>\r\n        </div>\r\n      </div>\r\n
+        \   </div>\r\n    <div class=\"form-group\" id=\"unitNumberRow\">\r\n      <label
+        class=\"control-label col-sm-2\" for=\"unitNum\">Unit</label>\r\n      <div
+        class=\"col-sm-10\">\r\n        <input type=\"text\" class=\"text-mini\" name=\"unitNum\"
+        id=\"unitNum\" size=\"10\" value=\"\" />\r\n      </div>\r\n    </div>\r\n
+        \   <div class=\"form-group\" id=\"houseNumRow\">\r\n      <label class=\"control-label
+        col-sm-2\" for=\"houseNum\">House No.</label>\r\n      <div class=\"col-sm-10\">\r\n
+        \       <div id=\"houseNumSelect\">\r\n          <select class=\"select-medium\"
+        name=\"houseNum\" id=\"houseNum\">\r\n            <option value=\"0&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;\">-
+        -None Selected- -</option>\r\n          </select>\r\n        </div>\r\n      </div>\r\n
+        \   </div>\r\n    <div class=\"form-group\" id=\"planNumberRow\">\r\n      <label
+        class=\"control-label col-sm-2\" for=\"planNumber\">Plan</label>\r\n      <div
+        class=\"col-sm-10\">\r\n        <input type=\"text\" class=\"text-small\"
+        name=\"planNumber\" id=\"planNumber\" size=\"10\" value=\"\" />\r\n      </div>\r\n
+        \   </div>\r\n    <div class=\"form-group\" id=\"strataPlanRow\">\r\n      <label
+        class=\"control-label col-sm-2\" for=\"strataPlan\">Strata Plan</label>\r\n
+        \     <div class=\"col-sm-10\">\r\n        <input type=\"text\" class=\"text-small\"
+        name=\"strataPlan\" id=\"strataPlan\" size=\"10\" value=\"\" />\r\n      </div>\r\n
+        \   </div>\r\n    <div class=\"form-group\" id=\"lotRow\">\r\n      <label
+        class=\"control-label col-sm-2\" for=\"lotNumber\">Lot</label>\r\n      <div
+        class=\"col-sm-10\">\r\n        <input type=\"text\" class=\"text-small\"
+        name=\"lotNumber\" id=\"lotNumber\" size=\"10\" value=\"\" />\r\n      </div>\r\n
+        \   </div>\r\n    <div class=\"form-group\" id=\"propertyNameRow\">\r\n      <label
+        class=\"control-label col-sm-2\" for=\"propertyName\">Place</label>\r\n      <div
+        class=\"col-sm-10\">\r\n        <input type=\"text\" class=\"text-large\"
+        name=\"propertyName\" id=\"propertyName\" size=\"20\" value=\"\" />\r\n      </div>\r\n
+        \   </div>\r\n    <p class=\"rowDataOnly\">\r\n      <span class=\"rowInfo\">\r\n
+        \       <strong>AND</strong>\r\n        the following search field:\r\n      </span>\r\n
+        \   </p>\r\n    <p>\r\n      \r\n      &nbsp;\r\n      \r\n    </p>\r\n    <h2>Options</h2>\r\n
+        \   <label class=\"radio-inline control-label control-radio\">\r\n      <input
+        type=\"radio\" name=\"searchMode\" value=\"A\" id=\"searchModeA\" checked=\"checked\"
+        />\r\n      <span class=\"indicator\" />\r\n      All Planning Applications\r\n
+        \   </label>\r\n    <label class=\"radio-inline control-label control-radio\">\r\n
+        \     <input type=\"radio\" name=\"searchMode\" value=\"D\" id=\"searchModeD\"
+        />\r\n      <span class=\"indicator\" />\r\n      Determined Planning Applications\r\n
+        \   </label>\r\n    <label class=\"radio-inline control-label control-radio\">\r\n
+        \     <input type=\"radio\" name=\"searchMode\" value=\"P\" id=\"searchModeP\"
+        />\r\n      <span class=\"indicator\" />\r\n      Planning Applications Awaiting
+        Decision\r\n    </label>\r\n    <label class=\"radio-inline control-label
+        control-radio\">\r\n      <input type=\"radio\" name=\"searchMode\" value=\"C\"
+        id=\"searchModeC\" />\r\n      <span class=\"indicator\" />\r\n      Currently
+        Advertised Planning Applications\r\n    </label>\r\n    <div class=\"button-panel\">\r\n
+        \     <input type=\"submit\" name=\"submitButton\" class=\"button\" value=\"Search\"
+        onclick=\"javascript:checkDetDatesMakeSense()\" />\r\n      <input type=\"button\"
+        name=\"clearButton\" class=\"button\" value=\"Clear\" onclick=\"javascript:clearDaEnquiryFields()\"
+        />\r\n    </div>\r\n  </form>\r\n</div>\r\n\r\n\r\n\t<!-- CIVICA-CONTENT-END:bodypanel1
+        -->\r\n</div>\r\n\r\n\r\n\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n</div>\r\n\r\n\r\n\t\t\t\t\t\t\t</div>\n</div>\n
+        \    \r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t</div>\r\n\t\t\t</div>
+        <!-- container -->\r\n\t\t</div> <!-- content -->\r\n\r\n\t\t<div id=\"bottom\"
+        class=\"tabbed\">\r\n\t\t\t<div class=\"container\" id=\"bottom-container\">\r\n\t\t\t\t<div
+        class=\"row\">\r\n\t\t\t\t\t\r\n\t\t\t\t\t<div class=\"footer\">\r\n\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t<p
+        id=\"web-context-path\">/eservice</p>\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\r\n\t</div>\r\n\t<!--
+        End page div -->\r\n\r\n\r\n\t\r\n\r\n<!-- End Bootstrap eServices -->\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<!--
+        iServices -->\r\n\r\n\t</body>\r\n</html>\r\n"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: get
+    uri: https://eservice.whittlesea.vic.gov.au/eservice/daEnquiry.do?dateFrom=15/04/2019&dateTo=15/05/2019&detDateFromString=&detDateToString=&houseNum=0%0A%09%09%09%09%09%09&lotNumber=&number=&planNumber=&propertyName=&searchMode=A&strataPlan=&streetName=&suburb=0&unitNum=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - JSESSIONID_eslive=0000rngUzPqAl7IrF-wyhxZEUTV:-1
+      Host:
+      - eservice.whittlesea.vic.gov.au
+      Referer:
+      - https://eservice.whittlesea.vic.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=25322
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache,no-store,max-age=0,must-revalidate,proxy-revalidate
+      Pragma:
+      - No-cache
+      Content-Type:
+      - text/html
+      Content-Language:
+      - en-US
+      Expires:
+      - '0'
+      Server:
+      - Microsoft-IIS/8.0
+      X-Powered-By:
+      - Servlet/3.1
+      Date:
+      - Mon, 22 Jul 2019 07:08:07 GMT
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n      \r\n\t\r\n    \r\n\r\n\r\n\r\n\t\t\r\n\r\n\r\n
+        \     \r\n\t\r\n    \r\n    \r\n  \r\n\r\n\r\n  \r\n\r\n\r\n<!DOCTYPE HTML
+        PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"  \"http://www.w3.org/TR/html4/loose.dtd\">\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<html
+        lang=\"en-US\">\r\n\t<head>\r\n\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"
+        />\r\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"
+        />\r\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1,
+        maximum-scale=1\" />\r\n\t\t<title>\r\n\t\t\t\r\n\t\t</title>\r\n\t\t<link
+        rel=\"stylesheet\" href=\"/eservice/library/bootstrap-335.min.css\" type=\"text/css\"
+        media=\"screen, projection, print\" >\n<link rel=\"stylesheet\" href=\"/eservice/library/jquery-ui.min.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\n<link rel=\"stylesheet\"
+        href=\"/eservice/library/jquery-ui.structure.min.css\" type=\"text/css\" media=\"screen,
+        projection, print\" >\n<link rel=\"stylesheet\" href=\"/eservice/library/jquery-ui.theme.min.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\n<link rel=\"stylesheet\"
+        href=\"/eservice/library/e-services.css\" type=\"text/css\" media=\"screen,
+        projection, print\" >\n<link rel=\"stylesheet\" href=\"/eservice/library/calendar.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\n<link rel=\"stylesheet\"
+        href=\"/eservice/library/daEnquiry_daEnquiryResults.css\" id=\"pagecss\" type=\"text/css\"
+        media=\"screen, projection\" >\n<link rel=\"stylesheet\" href=\"/eservice/library/e-print.css\"
+        type=\"text/css\" media=\"print\" >\n<link rel=\"stylesheet\" href=\"/eservice/library/header-eserv.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\n<link rel=\"stylesheet\"
+        href=\"/council/eservice/library/eservices-customisation.css\" type=\"text/css\"
+        media=\"screen, projection, print\" >\n\r\n\t\t<script>var AUTHJS = {};AUTHJS.productName
+        = \"i-Services\";</script>\n<script type=\"text/javascript\" src=\"/eservice/jscalendar-1.0/calendar.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/jquery-1.11.3.min.js\"></script>\n<script>AUTHJS.productName
+        = \"e-Services\";</script>\n<script type=\"text/javascript\" src=\"/eservice/javascript/tether-1.3.3.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/modernizr-283.min.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/bootstrap-335.min.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/jquery-ui-datepicker.min.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/e-services-page.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/prototype.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/civica.jquery.plugins.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/civica.common.init.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/civica.jquery.functions.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/util.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/json2.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/effects.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/controls.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/dragdrop.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/lightbox.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/menu.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/menuScroll.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/sitemap.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery.imageTickBox.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery.metadata.js\"></script>\n\r\n\t\t<link
+        rel=\"shortcut icon\" href=\"favicon.ico\" />\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t</head>\r\n\t\r\n\t<body\r\n\t\t\r\n\t>\r\n\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<script
+        type=\"text/javascript\">\r\n\tvar initialTabPage= \"null\";\r\n\tjQuery(document).ready(function()
+        {\r\n\t\tif (initialTabPage != \"null\") {\r\n\t\t\tif (initialTabPage==\"sitemap\"){\r\n\t\t\t\tinitialTabPage=\"#sitemap-controller\";
+        \   \r\n\t\t\t} else {\r\n\t\t\t\tinitialTabPage=\"#dashboard-controller\";
+        \      \r\n\t\t\t}\r\n\t\t\tjQuery(initialTabPage + \" a.tab-clicker\").not(\".tabs-content
+        *\").click();\r\n\t\t}\r\n\t\t\r\n\t});\r\n\r\n\t(function() {\r\n\t\tvar
+        isBootstrapEvent = false;\r\n\t\tif (window.jQuery) {\r\n\t\t\tvar all = jQuery('*');\r\n\t\t\tjQuery.each(['hide.bs.dropdown',
+        \r\n\t\t\t\t'hide.bs.collapse', \r\n\t\t\t\t'hide.bs.modal', \r\n\t\t\t\t'hide.bs.tooltip',\r\n\t\t\t\t'hide.bs.popover',\r\n\t\t\t\t'hide.bs.tab'],
+        function(index, eventName) {\r\n\t\t\t\tall.on(eventName, function( event
+        ) {\r\n\t\t\t\t\tisBootstrapEvent = true;\r\n\t\t\t\t});\r\n\t\t\t});\r\n\t\t}\r\n\t\tvar
+        originalHide = Element.hide;\r\n\t\tElement.addMethods({\r\n\t\t\thide: function(element)
+        {\r\n\t\t\t\tif(isBootstrapEvent) {\r\n\t\t\t\t\tisBootstrapEvent = false;\r\n\t\t\t\t\treturn
+        element;\r\n\t\t\t\t}\r\n\t\t\t\treturn originalHide(element);\r\n\t\t\t}\r\n\t\t});\r\n\t})();\r\n</script>\r\n\r\n\r\n\r\n<!--
+        eServices -->\r\n\r\n\t<div id=\"page\" class=\" tabbed not-logged-in\">\r\n\r\n\t\r\n\r\n\r\n\t\t<div
+        id=\"masthead\" class=\"navbar navbar-static-top bs-docs-nav\">\r\n\t\t\t<div
+        class=\"container\" id=\"masthead-container\">\r\n\t\t\t\t<div class=\"navbar-header\">\r\n\t\t\t\t\t<a
+        class=\"navbar-brand\">\r\n\t\t\t\t\t\t<span></span>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\tWhittlesea
+        City Council\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t</a>\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t\t<!--
+        masthead Quicklinks start -->\r\n\t\t\t\t<div id=\"wrapper-quick-links\">\r\n\t\t\t\t\t<ul
+        id=\"quick-links\" class=\"nav navbar-nav navbar-right\">\r\n\t\t\t\t\t\t<li
+        class=\"top-link-home\">\r\n\t\t\t\t\t\t\t<a href=\"/eservice/navigationStart.do\"
+        id=\"quick-link-home\">\r\n\t\t\t\t\t\t\t\tHome\r\n\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<li
+        class=\"top-link-signin\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"/eservice/logonInit.do\"
+        id=\"quick-link-signin\">\r\n\t\t\t\t\t\t\t\t\t\tSign In\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<li
+        class=\"top-link-user\">\r\n\t\t\t\t\t\t\t<a>\r\n\t\t\t\t\t\t\t\t<!-- masthead
+        User start -->\r\n\t\t\t\t                \r\n\t\t\t\t                    \r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\tYou
+        are a Guest\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<!--
+        masthead User end -->\r\n\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t</li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t</div>\r\n\t\t\t\t<!--
+        masthead Quicklinks end -->\r\n\t\t\t</div>\r\n\t\t\t<!-- End container -->\r\n\t\t</div>\r\n\t\t<!--
+        End Masthead -->\r\n\r\n\r\n\t\r\n\r\n\t\t<!-- End Masthead navbar -->\r\n\r\n\r\n\t\t<div
+        id=\"content\">\r\n\r\n\t\t\t<div class=\"container\" id=\"content-container\">\r\n\r\n\t\t\t\t<div
+        class=\"row\" id=\"main-row\">\r\n\r\n\t\t\t\t\t<div class=\"col-sm-3\" id=\"bstrap-leftnav\">\r\n\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<div
+        id=\"search-results\" >\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</div>  \r\n\t\t\t\t\t\t\r\n\r\n\r\n\t\t\t\t\t\t<div
+        id=\"admin-tabs\" >\r\n\t\t\t\t\t\t\t<div id=\"dashboard\" class=\"tabs-content\">\r\n\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\r\n\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<!--
+        START MENU CONTENT -->\r\n\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t<div
+        id=\"menus-toggle\">\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div
+        id=\"menus-button\" class=\"btn btn-default\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span
+        id=\"menus-button-inner\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a id=\"menus-button-link\"
+        href=\"#\">Hide Menus</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t<div
+        id=\"site-access\" class=\"menu-on\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<ul
+        id=\"siteaccesspanel\">\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\r\n\t\r\n\t\r\n\t\r\n\t\t<li
+        id=\"siteaccesspanel_1\">\r\n\t\t\t<div class=\"menu-group\">\r\n\t\t\t\t<div
+        class=\"menu-header-panel\" title=\"Drag to change panel order\">\r\n\t\t\t\t\t<h3
+        class=\"panel-handle\">Menu</h3>\r\n\t\t\t\t</div>\r\n\t\t\t\t<p class=\"menu-handlers\">\r\n\t\t\t\t\r\n\t\t\t\t<a
+        href=\"/eservice/menu/minimisePanel.do?id=1\" title=\"Minimise Panel\" class=\"panel-min-max\"
+        id=\"panel-min-max-1\" >\n<img src=\"/eservice/icons/minimise.gif\" alt=\"Minimise\"
+        />\n</a>\n\r\n\t\t\t\t</p>\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n\r\n\t\t\t\t\t\t<div
+        id=\"menu-search\">\r\n\t\t\t\t\t\t\t<form action=\"/eservice/menu/search.do\"
+        class=\"menu-search-form\">\r\n\t\t\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<input
+        type=\"text\" size=\"15\" name=\"search\" id=\"search\" class=\"field\"  value=\"Menu
+        Search\" />\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<input type=\"submit\"
+        id=\"menu-search-submit\" value=\"Go\" class=\"buttonCalendar\" />\r\n\t\t\t\t\t\t\t\t<img
+        src=\"/eservice/icons/loading.gif\" alt=\"loading\" class=\"loading\" id=\"menu-search-loading\"
+        />\r\n\t\t\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t\t\t<!-- div id=\"search-autocomplete\"
+        class=\"autocompleter\"></div -->\r\n\t\t\t\t\t\t\t</form>\r\n\t\t\t\t\t\t\t<div
+        id=\"search-results\" >\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t<div
+        id=\"scrollingMenuContainer\" class=\"scrolling-container\">\r\n\t\t\t\t<ul
+        id=\"navigation\">\r\n\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\t\r\n\t\t\r\n\t\t\t<li
+        class=\"nav-return\" title=\"Back one menu level\"><a href=\"/eservice/navigationStart.do\"
+        id=\"node-0\"><img src=\"/eservice/icons/parent.gif\" alt=\"Return to \" />Applications
+        \                                     </a></li>\r\n\t\t\r\n\t\r\n\r\n\t\r\n\r\n\t\r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n
+        \       \r\n    \t    <li class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/das/online/Init.do?nodeNum=23944\"
+        class=\"linkitem\" id=\"node-23944\">Lodge Application</a>\r\n        </li>\r\n
+        \ \r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n        \r\n    \t    <li
+        class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=23945\"
+        class=\"linkitem\" id=\"node-23945\">Search Planning Application</a>\r\n        </li>\r\n
+        \ \r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n        \r\n    \t    <li
+        class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=25322\"
+        class=\"linkitem\" id=\"node-25322\">Enquire Planning Applications</a>\r\n
+        \       </li>\r\n  \r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n        \r\n
+        \   \t    <li class='java'>\r\n    \t\r\n\t       <a href=\"https://eservice.whittlesea.vic.gov.au/eservice/dialog/crm/selectCategory.do?key_num=2616&nodeNum=25922\"
+        class=\"linkitem\" id=\"node-25922\">Lodge section 30 documentation</a>\r\n
+        \       </li>\r\n  \r\n\r\n\r\n\r\n\t\t\t\t</ul>\r\n\t\t\t</div>\r\n\t\t\t\r\n\t\t\t
+        \r\n\t\t\t</div>\r\n\t\t</li>\r\n\t\r\n\r\n\r\n\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\r\n\t\r\n\t\r\n\t\t\t<li
+        id=\"siteaccesspanel_3\">\r\n\t\t\t\t<div class=\"menu-group\">\r\n\t\t\t\t\t<div
+        class=\"menu-header-panel\" title=\"Drag to change panel order\">\r\n\t\t\t\t\t\t<h3
+        class=\"panel-handle\">History</h3>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<p class=\"menu-handlers\">\r\n\t\t\t\t\t\r\n\t\t\t\t\t<a
+        href=\"/eservice/menu/movePanel.do?id=2\" title=\"Panel Up\" class=\"panel-up\">\r\n\t\t\t\t\t\t\t\t\t\t<img
+        src=\"/eservice/icons/panel_move_up.gif\" alt=\"Up\" /></a>\r\n\t\t\t\t\t\r\n\t\t\t\t\t<a
+        href=\"/eservice/menu/minimisePanel.do?id=2\" title=\"Minimise Panel\" class=\"panel-min-max\"
+        id=\"panel-min-max-2\" >\n<img src=\"/eservice/icons/minimise.gif\" alt=\"Minimise\"
+        />\n</a>\n\r\n\t\t\t\t\t</p>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t\t<ul id=\"recently-used\">\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<li
+        id=\"recently-used-0\">\r\n                                <a href=\"/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=25322\"
+        class=\"linkitem\">Enquire Planning Applications</a>\r\n                                \r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t</li>\r\n\t\r\n\r\n\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\r\n</ul>\r\n<script
+        type=\"text/javascript\">\r\n\t//Drag n Drop panels\r\n\tSortable.create('siteaccesspanel',
+        {handle: 'panel-handle', onUpdate:function(){new Ajax.Request(webContextPath
+        + '/resequencePanels.do', {method: 'post', parameters:Sortable.serialize('siteaccesspanel')})}});\r\n</script>\r\n\r\n<p
+        id=\"scroll-trigger\">10</p>\r\n<p id=\"alternate-scroll-trigger\"></p>\r\n<p
+        id=\"pixel-height-base-rate-for-list-item\">24</p>\r\n\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t<div
+        class=\"col-sm-9\" id=\"bstrap-main\">\r\n\t\t\t\t\t\t<div id=\"main-content\">\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<div
+        class=\"transaction-area\" id=\"transaction-area\"></div>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<!--
+        END MENU CONTENT -->\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<div class=\"unique-content\"
+        id=\"daEnquiry_daEnquiryResults\">\n<div class=\"daEnquirySpecific\" id=\"daEnquiry_daEnquiryResultsDocumentType5\">\n\r\n\t\t\t\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t<h1>\r\n\t\t\r\n
+        \         \r\n          \r\n              Planning Application Enquiry\r\n
+        \         \r\n\t\r\n\t\t\r\n\t</h1>\r\n\r\n\r\n<div id=\"fullcontent\" class=\"no_form\">\r\n\r\n\t\r\n\r\n\t\r\n\t\t\r\n\r\n\r\n\r\n\r\n\r\n<div
+        class=\"infopanel\">    \r\n\t<!-- CIVICA-INFO-START -->   \r\n\t\r\n        <div
+        id=\"infopanel-header\">\r\n\t        <h4 class=\"entryHeader\" >\r\n\t            Instructions\r\n\t
+        \       </h4>\r\n        </div>\r\n\t\r\n    <div id=\"instructions-content\"
+        class=\"instructions\">\n\r\n        \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\r\n\t\tClick
+        on the Planning Application to see further detail.<br/>To display these results
+        in a different order, select from the options below and click the 'Re-Sort'
+        button.\t\r\n\t\t\t  \r\n\t\t\t<p>\r\n\t\t\t\t<label>\r\n\t\t\t\t\tDocuments
+        Found\r\n\t\t\t\t\t70\r\n\t\t\t\t</label>\r\n\t\t\t</p>      \r\n\t\t\r\n\t\t\r\n\t\t\t<div
+        id=\"sortForm\">\r\n\t\t\t\t\r\n\t\t\t\t\t<form name=\"registerEnquirySortForm\"
+        method=\"post\" action=\"/eservice/daEnquirySort.do\" class=\"form-horizontal\">\r\n\t\t\t\t\t\tSort\r\n\t\t\t\t\t\t<div
+        class=\"form-group\">\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<span
+        id=\"sortByDatereceivedOption\" style=\"padding-right:2em\">\r\n\t\t\t\t\t\t\t\t\t<div
+        class=\"radio-inline\">\r\n\t\t\t\t\t\t\t\t\t\t<label class=\"control-label
+        control-radio\" for=\"sortByDatereceived\">\r\n\t\t\t\t\t\t\t\t\t\t\t<input
+        type=\"radio\" name=\"sortBy\" value=\"1\" id=\"sortByDatereceived\" />\r\n\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"indicator\"></div>\r\n\t\t\t\t\t\t\t\t\t\t\tReceived Date\r\n\t\t\t\t\t\t\t\t\t\t</label>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<span
+        id=\"sortByLocationOption\" style=\"padding-right:2em\">\r\n\t\t\t\t\t\t\t\t\t<div
+        class=\"radio-inline\">\r\n\t\t\t\t\t\t\t\t\t\t<label class=\"control-label
+        control-radio\" for=\"sortByLocation\">\r\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\"
+        name=\"sortBy\" value=\"2\" id=\"sortByLocation\" checked/>\r\n\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"indicator\"></div>\r\n\t\t\t\t\t\t\t\t\t\t\tLocation\r\n\t\t\t\t\t\t\t\t\t\t</label>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<span
+        id=\"sortByApplicationNumberOption\" style=\"padding-right:2em\">\r\n\t\t\t\t\t\t\t\t\t<div
+        class=\"radio-inline\">\r\n\t\t\t\t\t\t\t\t\t\t<label class=\"control-label
+        control-radio\" for=\"sortByApplicationNumber\">\r\n\t\t\t\t\t\t\t\t\t\t\t<input
+        type=\"radio\" name=\"sortBy\" value=\"3\" id=\"sortByApplicationNumber\"
+        />\r\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"indicator\"></div>\r\n\t\t\t\t\t\t\t\t\t\t\tApplication
+        No.\r\n\t\t\t\t\t\t\t\t\t\t</label>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<span
+        id=\"sortBySuburbOption\" style=\"padding-right:2em\">\r\n\t\t\t\t\t\t\t\t\t<div
+        class=\"radio-inline\">\r\n\t\t\t\t\t\t\t\t\t\t<label class=\"control-label
+        control-radio\" for=\"sortBySuburb\">\r\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\"
+        name=\"sortBy\" value=\"4\" id=\"sortBySuburb\" />\r\n\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"indicator\"></div>\r\n\t\t\t\t\t\t\t\t\t\t\tSuburb\r\n\t\t\t\t\t\t\t\t\t\t</label>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<span
+        id=\"sortByUnitHouseNumberOption\" style=\"padding-right:2em\">\r\n\t\t\t\t\t\t\t\t\t<div
+        class=\"radio-inline\">\r\n\t\t\t\t\t\t\t\t\t\t<label class=\"control-label
+        control-radio\" for=\"sortByUnitHouseNumber\">\r\n\t\t\t\t\t\t\t\t\t\t\t<input
+        type=\"radio\" name=\"sortBy\" value=\"5\" id=\"sortByUnitHouseNumber\" />\r\n\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"indicator\"></div>\r\n\t\t\t\t\t\t\t\t\t\t\tUnit/House Number\r\n\t\t\t\t\t\t\t\t\t\t</label>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<span
+        id=\"sortByStreetNameOption\" style=\"padding-right:2em\">\r\n\t\t\t\t\t\t\t\t\t<div
+        class=\"radio-inline\">\r\n\t\t\t\t\t\t\t\t\t\t<label class=\"control-label
+        control-radio\" for=\"sortByStreetName\">\r\n\t\t\t\t\t\t\t\t\t\t\t<input
+        type=\"radio\" name=\"sortBy\" value=\"6\" id=\"sortByStreetName\" />\r\n\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"indicator\"></div>\r\n\t\t\t\t\t\t\t\t\t\t\tStreet\r\n\t\t\t\t\t\t\t\t\t\t</label>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<span
+        id=\"sortBySummaryOption\" style=\"padding-right:2em\">\r\n\t\t\t\t\t\t\t\t\t<div
+        class=\"radio-inline\">\r\n\t\t\t\t\t\t\t\t\t\t<label class=\"control-label
+        control-radio\" for=\"sortBySummary\">\r\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\"
+        name=\"sortBy\" value=\"7\" id=\"sortBySummary\" />\r\n\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"indicator\"></div>\r\n\t\t\t\t\t\t\t\t\t\t\tType Of Work\r\n\t\t\t\t\t\t\t\t\t\t</label>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<span
+        id=\"sortByDeterminationOption\" style=\"padding-right:2em\">\r\n\t\t\t\t\t\t\t\t\t<div
+        class=\"radio-inline\">\r\n\t\t\t\t\t\t\t\t\t\t<label class=\"control-label
+        control-radio\" for=\"sortByDetermination\">\r\n\t\t\t\t\t\t\t\t\t\t\t<input
+        type=\"radio\" name=\"sortBy\" value=\"8\" id=\"sortByDetermination\" />\r\n\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"indicator\"></div>\r\n\t\t\t\t\t\t\t\t\t\t\tDecision\r\n\t\t\t\t\t\t\t\t\t\t</label>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div
+        class=\"row\">\r\n\t\t\t\t\t\t\t<input type=\"submit\" name=\"submit\" value=\"Sort\"
+        class=\"btn btn-primary\" />\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</form>\r\n\t\t\t\t\r\n\t\t\t</div>\r\n\t\t\r\n\t\r\n\t\r\n\r\n
+        \   </div>\n\r\n\t<!-- CIVICA-INFO-END -->\r\n</div>\r\n\r\n\t\r\n\r\n\t\r\n\t\t\r\n\t\r\n<div
+        \ class=\"bodypanel\" id=\"bodypanel1\">\r\n\t<!-- CIVICA-CONTENT-START:bodypanel1
+        -->\r\n\t\t</div>\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div><h4
+        class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=0\">18
+        Arte Walk WOLLERT  VIC  3750</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Secondary consent Secondary consent</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">717649/2018</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">06/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$1,500,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">27/05/2019</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=1\">29
+        Beech Street WHITTLESEA  VIC  3757</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Extension of time
+        Extension of time</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">714623/2014</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">26/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$4,000,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">14/05/2019</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=2\">77
+        Church Street WHITTLESEA  VIC  3757</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Sec Consent, Ext
+        of Time, Lots&lt;300m2 Extension of Time</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">715082/2014</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">09/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">30/05/2019</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=3\">11
+        Constance Court EPPING  VIC  3076</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Development Construction
+        of two warehouses</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">718492/2019</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">01/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$890,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=4\">475 Cooper Street EPPING  VIC
+        \ 3076</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span
+        class=\"inputField\">Industry and Amendment Amendment</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">711082/2008</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">03/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=5\">543 Cooper Street EPPING  VIC
+        \ 3076</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span
+        class=\"inputField\">Amendment Amendment</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">717436/2018</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">03/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$30,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Permit Amended</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">08/07/2019</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=6\">290 Craigieburn Road WOLLERT
+        \ VIC  3750</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Sec Consent, Ext of Time, Lots&lt;300m2
+        Secondary Consent</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">716603/2017</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">29/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=7\">Unit 17 355-371 Dalton Road
+        EPPING  VIC  3076</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Alterations to a building structure
+        or d The sale and consumption of liquor, and buildings and works associated
+        with an existing food and drink premises</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">718536/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">09/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$400,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=8\">823 Donnybrook Road DONNYBROOK
+        \ VIC  3064</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Other buildings and works (including
+        sep Development of the land in the form of extension to the existing Railway
+        platform, extension of carpark and provision of bus shelters</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">718517/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">09/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$1,500,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">No Permit Required</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">31/05/2019</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=9\">1145 Donnybrook Road DONNYBROOK
+        \ VIC  3064</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Secondary consent Secondary consent</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">717349/2018</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">09/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=10\">1285 Donnybrook Road WOODSTOCK
+        \ VIC  3751</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Subdivision of land multi-lot subdivision</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">718551/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">03/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=11\">63 Edmondson Street LALOR
+        \ VIC  3075</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Dual Occupancy Construction of two
+        dwellings</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">718531/2019</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">14/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$600,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=12\">250 Epping Road WOLLERT  VIC
+        \ 3750</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span
+        class=\"inputField\">Amendment Amend Planning Permit No. 713577-01 to Allow
+        for the Use and Development of Two Shops and a Medical Centre</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">713577/2012</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">16/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$1,500,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=13\">56 Flaxen Hills Road DOREEN
+        \ VIC  3754</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">One or more new buildings Construction
+        of a carport and outbuilding</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">718506/2019</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">30/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$45,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=14\">25 French Street THOMASTOWN
+        \ VIC  3074</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Multi Unit (5 or more dwellings)
+        Construction of six dwellings</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">718485/2019</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">26/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$1,200,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=15\">20 Fullarton Drive EPPING
+        \ VIC  3076</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Development Use and Development of
+        a warehouse and three stores</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">718482/2019</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">23/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$895,500.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=16\">110 Galloway Drive MERNDA
+        \ VIC  3754</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Amendment Section 72 Amendment -
+        Deletion of Conditions and Amendments to the Endorsed Plans</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">714540/2013</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">07/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=17\">860 Glenburnie Road WHITTLESEA
+        \ VIC  3757</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Other buildings and works (including
+        sep Construction of an outbuilding</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">718513/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">08/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$29,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=18\">1 Globe Place EPPING  VIC
+        \ 3076</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span
+        class=\"inputField\">Single dwelling incl. associated works Construction of
+        a verandah</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">718488/2019</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">24/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$9,900.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">No Permit Required</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">10/05/2019</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=19\">182 Greenhills Road BUNDOORA
+        \ VIC  3083</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Residential Multi Lot Subdivision</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">718518/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">09/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=20\">436 Harvest Home Road EPPING
+        \ VIC  3076</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Secondary consent Secondary consent</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">718206/2018</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">08/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$300,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">05/06/2019</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=21\">438
+        Harvest Home Road EPPING  VIC  3076</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Secondary consent
+        Secondary consent</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">718207/2018</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">08/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$300,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">05/06/2019</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=22\">440
+        Harvest Home Road EPPING  VIC  3076</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Sec Consent, Ext
+        of Time, Lots&lt;300m2 Secondary Consent</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">718208/2018</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">09/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">13/06/2019</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=23\">442
+        Harvest Home Road EPPING  VIC  3076</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Sec Consent, Ext
+        of Time, Lots&lt;300m2 Secondary Consent</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">718209/2018</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">15/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">13/06/2019</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=24\">571-583
+        High Street EPPING  VIC  3076</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Secondary consent
+        Secondary consent</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">716607/2017</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">16/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$3,300,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">20/05/2019</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=25\">383
+        High Street LALOR  VIC  3075</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Change of use (including car parking)
+        Use of the premises as Shop</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">718481/2019</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">18/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=26\">313 High Street THOMASTOWN
+        \ VIC  3074</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Secondary consent Secondary consent</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">717855/2018</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">16/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$640,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">04/06/2019</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=27\">26
+        Howell Street LALOR  VIC  3075</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Multi Unit (1
+        - 4 dwellings) Construction of a dwelling to the rear of an existing dwelling</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">718544/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">15/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$180,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=28\">32 Howell Street LALOR  VIC
+        \ 3075</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span
+        class=\"inputField\">Extension of Time Extension of Time</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">716240/2016</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">17/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">01/05/2019</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=29\">33
+        Janefield Drive BUNDOORA  VIC  3083</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Multi Unit (5
+        or more dwellings) and Amendment Amendment</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">715327/2015</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">30/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$14,000,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Permit Amended</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">22/05/2019</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=30\">33 Janefield Drive BUNDOORA
+        \ VIC  3083</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Sec Consent, Ext of Time, Lots&lt;300m2
+        Extension of time</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">715327/2015</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">07/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">04/06/2019</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=31\">10
+        Julie Street BUNDOORA  VIC  3083</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Sec Consent, Ext
+        of Time, Lots&lt;300m2</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">716521/2017</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">18/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">03/05/2019</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=32\">11
+        Kevin Street BUNDOORA  VIC  3083</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Extension of time
+        Extension of time</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">716377/2017</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">29/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$432,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">14/05/2019</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=33\">22
+        Lauder Drive BUNDOORA  VIC  3083</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Multi Unit (1
+        - 4 dwellings) Construction of two dwellings</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">718473/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">16/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$551,353.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=34\">Unit 1 13 Lydia Court EPPING
+        \ VIC  3076</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">VicSmart</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">718476/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">16/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$9,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=35\">102 Mahoneys Road THOMASTOWN
+        \ VIC  3074</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Extension to an existing dwelling
+        or str Buildings and works comprising an extension to the existing building</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">718523/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">06/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$180,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=36\">14 Marjory Street THOMASTOWN
+        \ VIC  3074</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Extension of time Extension of time</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">716402/2017</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">29/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$250,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">14/05/2019</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=37\">30
+        Martin Close SOUTH MORANG  VIC  3752</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Subdivision -
+        change of easement and/o Removal of Restrictive Covenant contained in Instrument
+        S486528R</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">718537/2019</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">15/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=38\">30 McDonalds Road EPPING  VIC
+        \ 3076</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span
+        class=\"inputField\">Multi Unit (1 - 4 dwellings)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">718512/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">07/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$249,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=39\">87 Monash Street LALOR  VIC
+        \ 3075</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span
+        class=\"inputField\">Multi Unit (1 - 4 dwellings) Multi Unit (1 - 4 dwellings)\r\nConstruction
+        of a dwelling to the rear of the exisitng dwelling</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">718504/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">03/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$350,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=40\">53 Mosaic Drive LALOR  VIC
+        \ 3075</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span
+        class=\"inputField\">Subdivision - Multi lot and Amendment Subdivision - Multi
+        lot and Amendment</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">715478/2015</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">01/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Permit Amended</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">05/06/2019</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=41\">101 Mount View Road LALOR
+        \ VIC  3075</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Construction of three dwellings Construction
+        of three dwellings</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">718487/2019</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">17/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$820,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=42\">52 Mount View Road THOMASTOWN
+        \ VIC  3074</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Four Dwellings and Sec Consent, Ext
+        of Time, Lots&lt;300m2 Four Dwellings Sec Consent, Ext of Time, Lots&lt;300m2</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">716003/2016</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">15/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$600,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">24/04/2019</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=43\">23
+        Nickson Street BUNDOORA  VIC  3083</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Sec Consent, Ext
+        of Time, Lots&lt;300m2 Extension of Time</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">715748/2016</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">09/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">31/05/2019</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=44\">Unit
+        2 72 Northgate Drive THOMASTOWN  VIC  3074</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Change of use
+        (including car parking) Use of the premises for the purposes of a material
+        recycling facility</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">718466/2019</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">15/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=45\">159 O'Herns Road EPPING  VIC
+        \ 3076</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span
+        class=\"inputField\">Development Construction of two warehouses</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">718511/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">07/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$1,000,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=46\">25 Oleander Drive MILL PARK
+        \ VIC  3082</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Change of use (including car parking)
+        Use and Development of the Land for a Store</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">718543/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">10/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=47\">21 Plenty Road BUNDOORA  VIC
+        \ 3083</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span
+        class=\"inputField\">Secondary consent Secondary consent</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">713302/2011</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">23/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$6,000,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=48\">222 Plenty Road BUNDOORA  VIC
+        \ 3083</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span
+        class=\"inputField\">Extension of time Extension of time</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">716611/2017</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">24/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$2,000,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">30/04/2019</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=49\">2365
+        Plenty Road WHITTLESEA  VIC  3757</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Amendment Amendment</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">716618/2017</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">03/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$350,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Permit Amended</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">13/05/2019</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=50\">63 Ricky Way EPPING  VIC  3076</a></h4><div><p
+        class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span class=\"inputField\">Subdivision
+        buildings</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">718489/2019</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">29/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=51\">110 Sackville Street MERNDA
+        \ VIC  3754</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Extension of time Extension of time</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">716324/2016</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">10/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$950,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">06/06/2019</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=52\">46
+        Schotters Road MERNDA  VIC  3754</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Signage Display
+        of advertising signage</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">718491/2019</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">30/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$3,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=53\">104 Schotters Road MERNDA
+        \ VIC  3754</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Subdivision of land and Native vegetation
+        removal Subdivision of the land and removal of vegetation</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">718510/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">30/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$240,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=54\">187-205 Settlement Road THOMASTOWN
+        \ VIC  3074</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Sec Consent, Ext of Time, Lots&lt;300m2
+        Secondary Consent</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">715944/2016</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">06/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">13/06/2019</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=55\">251
+        Settlement Road THOMASTOWN  VIC  3074</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Amendment Amendment</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">716650/2017</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">15/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$850,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Permit Amended</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">12/06/2019</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=56\">331 Settlement Road THOMASTOWN
+        \ VIC  3074</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Extension of time Extension of time</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">711351/2008</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">10/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$200,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">08/07/2019</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=57\">10
+        Sommerville Avenue MERNDA  VIC  3754</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Multi Unit (5
+        or more dwellings)</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">718532/2019</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">10/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=58\">34 Spring Street THOMASTOWN
+        \ VIC  3074</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Multi Unit (5 or more dwellings)
+        and Sec Consent, Ext of Time, Lots&lt;30 Multi Unit (5 or more dwellings)
+        Sec Consent, Ext of Time, Lots&lt;300m2</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">713959/2012</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">06/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$900,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">13/06/2019</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=59\">55
+        Springs Road DONNYBROOK  VIC  3064</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">FLP Stage 3A,
+        Condition 3 FLP Stage 3A, Condition 3</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">717219/2017</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">08/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$850,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=60\">55 Springs Road DONNYBROOK
+        \ VIC  3064</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">FLP Stage 4, Condition 3 FLP Stage
+        4, Condition 3</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">717219/2017</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">08/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$850,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=61\">55 Springs Road DONNYBROOK
+        \ VIC  3064</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Secondary consent Secondary consent</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">717219/2017</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">10/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">13/06/2019</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=62\">6
+        Stewart Street THOMASTOWN  VIC  3074</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Sec Consent, Ext
+        of Time, Lots&lt;300m2 Secondary Consent</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">717384/2018</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">13/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">29/05/2019</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=63\">35
+        Strong Avenue THOMASTOWN  VIC  3074</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Development Construction
+        of a warehouse</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">718519/2019</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">09/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$150,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=64\">20 The Link MILL PARK  VIC
+        \ 3082</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span
+        class=\"inputField\">Multi Unit (5 or more dwellings)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">718527/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">13/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=65\">18 Travers Street THOMASTOWN
+        \ VIC  3074</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Multi Unit (1 - 4 dwellings) Construction
+        of three dwellings</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">718475/2019</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">16/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$800,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=66\">25 Westall Street THOMASTOWN
+        \ VIC  3074</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Secondary consent Secondary consent</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">716855/2017</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">07/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$750,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">21/06/2019</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=67\">55
+        Woods Road DOREEN  VIC  3754</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Extension of time Extension of time</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">712983/2011</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">14/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$2,700,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">12/06/2019</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=68\">815
+        Yan Yean Road DOREEN  VIC  3754</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Subdivision of
+        land and Native vegetation removal and Subdivision - ch Subdivision of land,
+        removal of native vegetation and creation of reserves</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">718490/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">17/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=69\">31A Yellow Brick Road DOREEN
+        \ VIC  3754</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">One or more new buildings and Change
+        of use (including car parking) Use and Development of a Medical Centre and
+        Restricted Recreation Facility</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">718477/2019</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">16/04/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$3,000,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><div class=\"button-panel\"><a class=\"btn btn-primary\"
+        href=\"/eservice/daEnquiryInit.do?nodeNum=25322&amp;goingBack=true\">New Search</a></div></div>\r\n<div>\n\r\n\t<!--
+        CIVICA-CONTENT-END:bodypanel1 -->\r\n</div>\r\n\r\n\r\n\r\n\t\r\n\r\n\t\r\n\r\n\t\r\n\r\n\t\r\n\r\n\t\r\n\r\n\t\r\n\r\n\t\r\n\r\n\t\r\n\r\n\t\r\n</div>\r\n\t\t\t\t\t\t\t</div>\n</div>\n
+        \    \r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t</div>\r\n\t\t\t</div>
+        <!-- container -->\r\n\t\t</div> <!-- content -->\r\n\r\n\t\t<div id=\"bottom\"
+        class=\"tabbed\">\r\n\t\t\t<div class=\"container\" id=\"bottom-container\">\r\n\t\t\t\t<div
+        class=\"row\">\r\n\t\t\t\t\t\r\n\t\t\t\t\t<div class=\"footer\">\r\n\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t<p
+        id=\"web-context-path\">/eservice</p>\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\r\n\t</div>\r\n\t<!--
+        End page div -->\r\n\r\n\r\n\t\r\n\r\n<!-- End Bootstrap eServices -->\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<!--
+        iServices -->\r\n\r\n\t</body>\r\n</html>\r\n\r\n"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+recorded_with: VCR 5.0.0

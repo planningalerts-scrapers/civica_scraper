@@ -2,6 +2,11 @@
 
 module CivicaScraper
   AUTHORITIES = {
+    whittlesea: {
+      url:
+        "https://eservice.whittlesea.vic.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=25322",
+      period: :last30days
+    },
     dorset: {
       url: "https://eservices.dorset.tas.gov.au/eservice/daEnquiryInit.do?nodeNum=12238",
       period: :last30days
