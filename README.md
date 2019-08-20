@@ -8,6 +8,8 @@ TODO: Delete this and the text above, and describe your gem
 
 ![Sign up](https://github.com/planningalerts-scrapers/civica_scraper/raw/master/screenshots/all.jpg)
 
+(To update this screenshot run `bundle exec rake screenshots`)
+
 ## Installation
 
 Add this line to your application's Gemfile:
